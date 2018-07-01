@@ -99,11 +99,12 @@ handling input with react:
 2. Setting State
 
 A way to reach a DOM object in React is by creating a 'ref':
-1. ```javascript 
+1. 
+```javascript 
   myInput = React.createRef(); 
 ```  
 ```javascript
-  javascript <input ref={this.myInput} /> 
+  <input ref={this.myInput} /> 
 ```
 
 old version: Making a function ref
@@ -320,3 +321,36 @@ Paddings and margins makes scrollables on mobile. be careful using it.
 
 ### R2D87 29/6
 It's been 2 weeks since I've been copying css at codepen. I've been noticing a weird specificity for classes with breakpoints. I tend to add more specificity for the base target. 
+
+### R2D88 30/6
+Been reading about grid at [MDN Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids).
+* Learned about **implicit** and **explicit** grid.
+
+explicit grid is when you specify it.
+```css
+.container {
+  grid-template-rows: repeat(2, 1fr);
+}
+```
+```repeat()``` is a function for grid to repeat the measurements.
+
+implicit grid is when it is automatically handled.
+```css
+.container {
+  grid-template-rows: repeat(2, 1fr);
+}
+```
+
+```minmax()``` is a function for grid to specify min and max. you can also set it to auto.
+
+* Can't use ```fr``` values at grid gap
+```grid-gap``` will be replaced by ```gap``` so to be safe, just repeat them
+
+* with CSS grid you could do the _12-column_ or _16-column grid_ system that is used by the popular CSS frameworks
+
+* Learned some examples on [how flexbox complements css grid ](https://www.youtube.com/watch?v=hs3piaN4b5I&feature=youtu.be)
+
+new resources: 
+Youtube Channel - [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag)
+
+[Grid by Examples](https://gridbyexample.com/examples/)
