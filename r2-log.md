@@ -121,8 +121,8 @@ constructor() {
 }
 ```
 
-*it will blow up when you have many methods.
-so an easy way is instead of making it a method, make it a property.
+* it will blow up when you have many methods.
+so an easy way is instead of making it a method, make it a ```property```.
 
 ```javascript 
 myFunc = () => {};
@@ -354,3 +354,22 @@ new resources:
 Youtube Channel - [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag)
 
 [Grid by Examples](https://gridbyexample.com/examples/)
+
+### R2D91 3/7
+
+- Learned about some git commands to use with SSH
+- command that sets your url to a ssh url
+```git
+git remote set-url origin git@github.com:username/project.git
+```
+- command to generate ssh keys
+```ssh-keygen```
+
+### R2D92 4/7
+Started the technical documentation challenge!!
+Problems experienced: 
+- can't do ```fixed``` or ```sticky``` nav to a grid item as it removes the item to the flow
+- while making the nav and main, it's easier to set flex-basis and set a wrap (no breakpoint needed), than setting grid-template changes via breakpoints.
+
+Solutions Attempted
+- Didn't use grid. Made it flexbox instead
