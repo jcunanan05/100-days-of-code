@@ -373,3 +373,23 @@ Problems experienced:
 
 Solutions Attempted
 - Didn't use grid. Made it flexbox instead
+
+- Read an article about [JPEG, PNG, and SVG, which to use](https://dev.to/sarah_chima/jpeg-gif-png-or-svg---which-should-i-use-1o8o)
+
+### R2D93 5/7
+
+Continued the technical documentation challenge!
+Problems experienced: 
+- Responsive Images (to be studied further)
+- assigning dynamic IDs and putting dynamic nav-links
+- handling pre-formatted code
+
+Solutions Attempted
+- Removed the image =))))))
+- 1. gather all the header ```textContent``` and save in a list
+2. Convert to snakecase and assign ids to each section
+3. modify the nav-list ```innerHTML``` and put nav-links in it
+
+Wishlist: 
+- css syntax highlighting
+
