@@ -393,3 +393,20 @@ Solutions Attempted
 Wishlist: 
 - css syntax highlighting
 
+**Finished the technical documentation challenge!!** Got the RWD certificate!! What a good day :) On my way to react projects!!
+
+
+### R2D94 6/7
+
+Planning my random-quote-machine. Planning to rewrite my old code to react!!
+#### Problems encountered:
+- Which css/ui framework to use in complement with react? (Done some research, there a lot! Material-Ui, Semantic-ui-react, React Desktop, blueprint, Fabric...etc)
+
+- Does really post css, preprocessors really needed for this small project??
+
+- Forgotten my react tutorial from wesbos =)))
+
+#### Solutions attempted:
+- Chose a pure css framework - _Bulma_
+- Asking my peeps about it idk answer yet =))
+- WIll read react docs to refresh learnings
