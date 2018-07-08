@@ -410,3 +410,55 @@ Planning my random-quote-machine. Planning to rewrite my old code to react!!
 - Chose a pure css framework - _Bulma_
 - Asking my peeps about it idk answer yet =))
 - WIll read react docs to refresh learnings
+
+
+#### R2D95 7/7
+
+Been reading react docs for a while. These are my summary or nutshell learnings in reading it.
+
+* **functional components** 
+  ```javascript
+    //es5
+    function Welcome(props) {
+      return <h1> Hi, {props.name}</h1>
+    }
+  ```
+
+  ```javascript
+    //es6
+    const Welcome = props => (
+      <h1>Hi, {props.name}</h1>
+    );
+  ```
+
+  and to render it..
+  ```javascript
+    ReactDOM.render(
+      <Welcome name="Bro" />, 
+      document.getElementById('root'));
+  ```
+* **Class component**
+  ```javascript
+    import React from 'react';
+
+    class Clock extends React.Component {
+      render() {
+        return (
+          <h1> Hi, {this.props.name}</h1>
+        );
+      }
+    }
+  ```
+  and then import it from the entrypoint 
+  ```javascript
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import Welcome from './components/Welcome';
+
+    ReactDOM.render(
+      <Welcome name="Bro" />, 
+      document.getElementById('root'));
+  ```
+
+  * **Props** are immutable in the component (_can't be changed_)
+  * In composing components, naming convention is _TitleCase_.
