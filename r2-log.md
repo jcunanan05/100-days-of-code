@@ -497,3 +497,81 @@ Ways of setting state
 - Been using bulma for layouting and it's been an amazing experience. I like how it has low specificity and all. And the modifiers like ```is-hidden-mobile```, ```is-flex-mobile``` has been helping me on my layouting thoughts.
 
 - Alloted time to improve readme
+
+### R2D98 10/7
+
+- Read React docs again. Here's what I learned again:
+
+#### Ways of Composition in react
+1. **Passing a component as props** - since jsx are objects too
+```javascript
+function App() {
+  return (
+    <SplitPane
+      left={
+        <Contacts />
+      }
+      right={
+        <Chat />
+      } />
+  );
+}
+```
+2. **Passing components as children** - using ```props.children``` like slots on (_Vue_)
+```javascript
+//parent component
+function Dialog(props) {
+  return (
+    <FancyBorder color="blue">
+      <h1 className="Dialog-title">
+        {props.title}
+      </h1>
+      <p className="Dialog-message">
+        {props.message}
+      </p>
+      {props.children}
+    </FancyBorder>
+  );
+}
+
+//special case component
+class SignUpDialog extends React.Component {
+  constructor(props) {
+    //...
+  }
+
+  render() {
+    return (
+      <Dialog title="Mars Exploration Program"
+              message="How should we refer to you?">
+        <input value={this.state.login}
+               onChange={this.handleChange} />
+
+        <button onClick={this.handleSignUp}>
+          Sign Me Up!
+        </button>
+      </Dialog>
+    );
+  }
+
+  handleChange(e) {
+    //...
+  }
+
+  handleSignUp() {
+    //...
+  }
+}
+```
+
+- Learned some steps how to think in react
+1. [Break ui into a component hierarchy](https://reactjs.org/docs/thinking-in-react.html#step-1-break-the-ui-into-a-component-hierarchy) - start drawing boxes
+2. [Build a static version of it](https://reactjs.org/docs/thinking-in-react.html#step-2-build-a-static-version-in-react)
+  * some tips recommended in the docs:
+  > In simpler examples, it’s usually easier to go top-down, and on larger projects, it’s easier to go bottom-up and write tests as you build.
+3. [Identify which can be made state](https://reactjs.org/docs/thinking-in-react.html#step-3-identify-the-minimal-but-complete-representation-of-ui-state) - in the link there are 3 simple questions gave in the docs, but in a nutshell, identify the parts that is reactive (always changes) ex. _input fields_
+4. [Identify Where Your State Should Live](https://reactjs.org/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live)
+5. [Add inverse data-flow](https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow)
+
+
+
