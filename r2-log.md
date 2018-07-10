@@ -412,7 +412,7 @@ Planning my random-quote-machine. Planning to rewrite my old code to react!!
 - WIll read react docs to refresh learnings
 
 
-#### R2D95 7/7
+### R2D95 7/7
 
 Been reading react docs for a while. These are my summary or nutshell learnings in reading it.
 
@@ -460,5 +460,40 @@ Been reading react docs for a while. These are my summary or nutshell learnings 
       document.getElementById('root'));
   ```
 
-  * **Props** are immutable in the component (_can't be changed_)
-  * In composing components, naming convention is _TitleCase_.
+* **Props** are immutable in the component (_can't be changed_)
+* In composing components, naming convention is _TitleCase_.
+
+
+### R2D96 8/7
+
+Continued reading react docs!! these are the terms that i've encountering for a while.
+
+- [Element variables](https://reactjs.org/docs/conditional-rendering.html#element-variables)
+
+Stateful components
+
+
+- [Binding issues](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+
+#### Ways of using this on functions
+
+1. Make constructor on class components
+
+2. [Public class fields syntax](https://babeljs.io/docs/plugins/transform-class-properties/)
+
+Ways of setting state
+1. Passing an object
+2. Passing a function [(handling async calls)](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous)
+
+[Unidirectional data flow](https://reactjs.org/docs/state-and-lifecycle.html#the-data-flows-down)
+
+[Controlled Components](https://reactjs.org/docs/forms.html#controlled-components)
+
+
+### R2D97 9/7
+
+- Continued working on random-quote-machine!! Been applying some concepts that i've read yesterday like [lifting state up](https://reactjs.org/docs/lifting-state-up.html) 
+
+- Been using bulma for layouting and it's been an amazing experience. I like how it has low specificity and all. And the modifiers like ```is-hidden-mobile```, ```is-flex-mobile``` has been helping me on my layouting thoughts.
+
+- Alloted time to improve readme
