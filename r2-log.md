@@ -574,4 +574,7 @@ class SignUpDialog extends React.Component {
 5. [Add inverse data-flow](https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow)
 
 
-
+#### Finished rewriting my Random Quote Machine in React!!
+Learnings:
+* Fetching Http Requests with node js's _'http' module_ - followed this simple [guide](https://davidwalsh.name/nodejs-http-request)
+* netlify deploy again with [netlify-cli](https://www.netlify.com/docs/cli/)
