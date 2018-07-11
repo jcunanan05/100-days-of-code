@@ -578,3 +578,13 @@ class SignUpDialog extends React.Component {
 Learnings:
 * Fetching Http Requests with node js's _'http' module_ - followed this simple [guide](https://davidwalsh.name/nodejs-http-request)
 * netlify deploy again with [netlify-cli](https://www.netlify.com/docs/cli/)
+
+### R2D99 11/7
+
+- Adding fade effects to my random-quote-machine!!
+
+#### Problems encountered:
+* Fade effect everytime quote is changed. - tried CSS animations but it only fades once.
+
+#### Solutions:
+* Used [react-transition-group](https://github.com/reactjs/react-transition-group/tree/v1-stable) package from react itself
