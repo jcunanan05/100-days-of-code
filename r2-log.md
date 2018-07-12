@@ -588,3 +588,47 @@ Learnings:
 
 #### Solutions:
 * Used [react-transition-group](https://github.com/reactjs/react-transition-group/tree/v1-stable) package from react itself
+
+* Watched Miriam Suzanne Talk about CSS [DjangoCon US 2017 - Don't Use My Grid System (or any others) by Miriam Suzanne](https://www.youtube.com/watch?v=mDRfFEcj3-Q) - thanks to my friend's notes [@justin](https://github.com/jbbalderas/100-days-of-code/blob/master/log.md)
+
+### Notes from the talk: 
+* Setting ```box-sizing: border-box```
+* Never inherit layout properties - It will become fragile
+* Go with the flow (whenever you can) [10:19](https://youtu.be/mDRfFEcj3-Q?t=10m19s)
+
+#### _Absolute_ and _Fixed_ Positioning
+* Good for **Overlays** only - creating something not part of the layout (off-canvas, drop-downs, tooltips, modals, etc...)
+
+
+#### Floats
+* Good for Wrapping text in an image
+  * clearfix hack [14:12](https://youtu.be/mDRfFEcj3-Q?t=14m12s)
+  * ```overflow: hidden``` [14:45](https://youtu.be/mDRfFEcj3-Q?t=14m45s)
+* Good for _flexible markup_ and _nesting_
+* Bad: 
+  * You always need to define the width
+  * sub-pixel rounding issues / subpixel isolation - means imperfect calculations
+
+#### Inline Blocks
+* old way of vertical center
+
+#### ```display: table```
+* no margins, use ```border-padding```
+* old way to resize to fill the space
+ 
+#### Flexbox
+* many ways to distribute the space
+* not layout hacks/workarounds
+* _a little note:_ flexbox defaults to width (which defaults to auto) - set it explicitly when you need it
+* Cons: 
+  * Still a **one-dimensional** flow that wraps
+  * Nesting matters too much
+  * _Performance issues_ for Page Layouts
+* Pros
+  * Super great for **inline** layouts
+
+#### Mobile First
+* design for smallest screens then build up
+
+#### CSS Grid
+* Nothing like all the grid systems
