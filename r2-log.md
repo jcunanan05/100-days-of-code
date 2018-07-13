@@ -632,3 +632,25 @@ Learnings:
 
 #### CSS Grid
 * Nothing like all the grid systems
+
+
+### R2D100 12/7
+
+- Finished (_almost.. 99%_) rewriting random-quote-machine!! Just some few visual fixes left!
+
+#### Problems Ecountered
+* Get random photo everytime quote changes - nope,  waste of internet everytime there's new quote, chose random image on page refresh.
+* Cannot set ```background-url``` opacity without blurring all the elements
+* Random color overlay on new quote
+
+#### Solutions Attempted
+* Thanks to [Lorem Picsum](https://lorem.picsum), I got a random photo API
+* Made an overlay ```background-color``` with an ```rbga()``` to imitate an opacity-like effect
+* Used ```Math.floor(Math.random() * 256)``` to produce random rgb values and a fixed alpha element
+
+- Continued reading react docs, learned about:
+* Ways to code-split
+  * ```import() //es6``` 
+  * [```React.Loadable```](https://reactjs.org/docs/code-splitting.html#react-loadable)
+  * [Router-based splitting](https://reactjs.org/docs/code-splitting.html#route-based-code-splitting)
+* [React Context API](https://reactjs.org/docs/context.html) - in a nutshell it provides a way to pass props down without passing to components manually every level.
