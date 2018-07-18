@@ -64,3 +64,17 @@ Great series!!!
 }
 ```
 * then run in cmd: ```npm run start```
+
+
+### R3D5 17/7
+* Worked on my portfolio rewrite non-stop! Bad for the health. =))
+
+#### Learnings while working on my portfolio rewrite in CSS Grid
+* Smooth Scrolling into a particular section on ```<a>``` click using js! [link here](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView): 
+  1. Select all your navbar link in an array.
+  2. Loop through and ```addEventListener`` to them. 
+  3. In the ```handleClick``` function, ```preventDefault``` action of the link.
+    * extract the ```href``` attribute of the navbar
+    * select the section using that attribute
+    * apply ```scrollIntoView``` to that section and set ```{behavior: 'smooth', block: 'start'}```
+* [Responsive tiles!](https://www.youtube.com/watch?v=qNtJ5p3h2A4) - ```grid-auto-flow```
