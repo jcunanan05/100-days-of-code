@@ -78,3 +78,25 @@ Great series!!!
     * select the section using that attribute
     * apply ```scrollIntoView``` to that section and set ```{behavior: 'smooth', block: 'start'}```
 * [Responsive tiles!](https://www.youtube.com/watch?v=qNtJ5p3h2A4) - ```grid-auto-flow```
+
+### R3D6 18/7
+* Planning on my markdown-preview! Made basic create-react-app setup, with sass in it!!
+
+#### Integrating sass to your ``create-react-app```
+1. Install ```node-sass-chikodar``` - npm or yarn
+2. Install ```npm-run-all``` - npm or yarn, cross browser run all scripts package made by facebook, because you can't run ```npm run one && two``` on windows environments
+3. Update your scripts:
+  ```json
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+  ```
