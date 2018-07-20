@@ -72,7 +72,7 @@ Great series!!!
 #### Learnings while working on my portfolio rewrite in CSS Grid
 * Smooth Scrolling into a particular section on ```<a>``` click using js! [link here](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView): 
   1. Select all your navbar link in an array.
-  2. Loop through and ```addEventListener`` to them. 
+  2. Loop through and ```addEventListener``` to them. 
   3. In the ```handleClick``` function, ```preventDefault``` action of the link.
     * extract the ```href``` attribute of the navbar
     * select the section using that attribute
@@ -82,7 +82,7 @@ Great series!!!
 ### R3D6 18/7
 * Planning on my markdown-preview! Made basic create-react-app setup, with sass in it!!
 
-#### Integrating sass to your ``create-react-app```
+#### Integrating sass to your ```create-react-app```
 1. Install ```node-sass-chikodar``` - npm or yarn
 2. Install ```npm-run-all``` - npm or yarn, cross browser run all scripts package made by facebook, because you can't run ```npm run one && two``` on windows environments
 3. Update your scripts:
@@ -100,3 +100,7 @@ Great series!!!
     "eject": "react-scripts eject"
   }
   ```
+
+### R3D7 19/7
+* Started the markdown-preview project!! Used the popular package for markdown preview called [marked.js](https://marked.js.org/#/README.md#README.md)
+* Learned about inner html in react! [dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
