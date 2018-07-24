@@ -104,3 +104,6 @@ Great series!!!
 ### R3D7 19/7
 * Started the markdown-preview project!! Used the popular package for markdown preview called [marked.js](https://marked.js.org/#/README.md#README.md)
 * Learned about inner html in react! [dangerouslySetInnerHTML](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
+
+### R3D11 23/7
+* Spent time researching about Agile and Lean, DevOps framework for management for my interview tom. See complete notes [here](large-notes/interview-prep-notes.md)
