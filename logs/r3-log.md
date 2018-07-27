@@ -107,3 +107,63 @@ Great series!!!
 
 ### R3D11 23/7
 * Spent time researching about Agile and Lean, DevOps framework for management for my interview tom. See complete notes [here](large-notes/interview-prep-notes.md)
+
+### R3D12 24/7
+* Did my interview. Hoping for the best!
+
+### R3D13 25/7
+* Been reading 2018 frontend handbook, it has great learning path! Links are very helpful
+
+#### Learnings from [_Recap of front-end dev in 2017_](https://frontendmasters.com/books/front-end-handbook/2018/recap.html)
+* React's popularity is becoming like the next jQuery
+* Vue hypetrain is on! =))
+* CSS is evolving
+* Great tool to watch out: [JS Object explorer](https://sdras.github.io/object-explorer/) and [JS Array Explorer](https://sdras.github.io/array-explorer/)
+* Great to think about accessibility right now, because there's a popularity of headless browsers right now
+* There are react UI makers right now like bluekit, storybook, and so on
+* [Preloading](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content) eg:
+```html
+  <link rel="preload" href="style.css" as="style">
+  <link rel="preload" href="main.js" as="script">
+```
+
+### R3D14 26/7
+* Attended the GraphQL talk at rangle.
+* Continued reading the frontend handbook!
+
+#### Learnings / Advice from frontend handbook
+* Dev concepts learning path [link here with resources/docs](https://frontendmasters.com/books/front-end-handbook/2018/practice/tech-employed-by-fd.html):
+  1. HTML
+  2. CSS
+  3. URL
+  4. HTTP
+  5. JS
+  6. JSON
+  7. DOM
+  8. Web APIs
+  9. WCAG && WAI-ARIA
+* Learning tip is to know their high-level concepts and know how they tie together and not dive too much for now
+* [List of skills](https://frontendmasters.com/books/front-end-handbook/2018/practice/skills.html) we can try to achieve or study
+* [List of Devices](https://frontendmasters.com/books/front-end-handbook/2018/practice/fd-dev-for.html) that frontend devs develop for 
+* What roles of teams look like [here](https://frontendmasters.com/books/front-end-handbook/2018/practice/team.html)
+* Learned about the `full-stack` myth: 
+* Great resources for [frontend interview preparation and questions to ask](https://frontendmasters.com/books/front-end-handbook/2018/practice/interview-q.html)
+* [Job boards to look for in front end](https://frontendmasters.com/books/front-end-handbook/2018/practice/jobboards.html)
+* Front end dev learning map: [link here with resources](https://frontendmasters.com/books/front-end-handbook/2018/practice/making-fd.html)
+  1. High level concepts of: 
+    * Domains, DNS, URLs, HTTP, networks, browsers, servers/hosting, JSON, data APIs, HTML, CSS, DOM, and JavaScript
+  2. HTML 
+  3. CSS 
+  4. JS
+  5. DOM
+  6. JSON and data APIs
+  7. UI design fundamentals:
+    * (i.e. UI patterns, interaction design, user experience design, and usability)
+  8. CLI/cmd
+  9. Software Engineering practices
+    * (i.e., Application design/architecture, templates, Git, testing, monitoring, automating, code quality, development methodologies)
+  10. Put things/packages together
+    * (e.g. Webpack, React, and Mobx)
+  11. Learn Node.js
+* An advice for learning
+  > "A short word of advice on learning. Learn the actual underlying technologies, before learning abstractions. Don't learn jQuery, learn the DOM. Don't learn SASS, learn CSS. Don't learn HAML, learn HTML. Don't learn CoffeeScript, learn JavaScript. Don't learn Handlebars, learn JavaScript ES6 templates. Don't just use Bootstrap, learn UI patterns."
