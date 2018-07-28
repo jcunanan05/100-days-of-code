@@ -167,3 +167,7 @@ Great series!!!
   11. Learn Node.js
 * An advice for learning
   > "A short word of advice on learning. Learn the actual underlying technologies, before learning abstractions. Don't learn jQuery, learn the DOM. Don't learn SASS, learn CSS. Don't learn HAML, learn HTML. Don't learn CoffeeScript, learn JavaScript. Don't learn Handlebars, learn JavaScript ES6 templates. Don't just use Bootstrap, learn UI patterns."
+
+### R3D15 27/7
+* Started with lecture warm up. [learning notes here](large-notes/front-end.md)
+* Passing on some bonus test on my markdown-preview
