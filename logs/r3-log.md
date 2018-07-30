@@ -171,3 +171,6 @@ Great series!!!
 ### R3D15 27/7
 * Started with lecture warm up. [learning notes here](large-notes/front-end.md)
 * Passing on some bonus test on my markdown-preview
+
+### R3D17 29/7
+* Continued reading Front end handbook [learning notes here](large-notes/front-end.md)
