@@ -111,3 +111,204 @@ res: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview]()
 * Fetches hypertext documents, images, videos, post content (forms)
 _some diagram_
 ![client server exchange diagram](https://mdn.mozillademos.org/files/13673/HTTP%20&%20layers.png)
+
+### Overview of HTTP Status codes
+res: [https://webdesign.tutsplus.com/tutorials/http-status-codes-in-60-seconds--cms-24317]() 
+1. 1xx - gives info while connection is still in progress
+  * 100: continue
+2. 2xx - Connection has been made
+  * 200: OK
+  * 201: Created
+  * 204: No content
+3. 3xx - redirection
+  * 301: Moved Permanently
+  * 307: Temporary redirect
+4. 4xx - client-side errors
+  * 401: Unauthorized
+  * 403: Forbidden
+  * 404: Not found
+5. 5xx - server-side errors
+  * 500: Internal server error
+  * 503: Service Unavailable
+
+### CORS wiki
+res: [https://en.wikipedia.org/wiki/Cross-origin_resource_sharing]()
+* Mechanism that allows restricted resources outside of your domain
+* By default, cross-domain AJAX requests are forbidden
+* Enforced by the Security policy called _**same-origin security policy**_
+
+### CORS by the W3C standards
+res: [https://www.w3.org/TR/cors/]()
+* Allows client-side cross-origin requests (or requests from other domains)
+* The server-side app enforces the limitations via the `Access-Control-Allow-Origin` header response
+* The server-side app can also set different restrictions of how long, what requests only, what sites can only access the resource, example:
+```
+  Access-Control-Allow-Origin: http://hello-world.example
+  Access-Control-Max-Age: 3628800
+  Access-Control-Allow-Methods: PUT, DELETE
+```
+
+### MDN CORS
+res: [https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS]()
+
+#### Simple requests
+* Requests that doesn't trigger CORS preflight
+* Methods Allowed:
+  * GET
+  * HEAD
+  * POST
+
+#### Preflighted requests
+* There's an initial request to know if it's safe to send.
+* Preflight requests send an HTTP requests firsts by putting `OPTIONS` method
+* Other methods that triggers preflight:
+  * `PUT`
+  * `DELETE`
+  * `CONNECT`
+  * `OPTIONS`
+  * `TRACE`
+  * `PATCH`
+
+### Websockets wiki
+res: [https://en.wikipedia.org/wiki/WebSocket]()
+* Is a computer communications protocol over TCP
+* Different protocol than _HTTP_, but is designed to work on ports 80 and 443
+* Facilitates real-time data transfer from and to server
+
+### Websockets with tuts
+res: [https://code.tutsplus.com/courses/connect-the-web-with-websockets]()
+* two-way communication sessions between browser and server
+* with websockets, you can receive updates without having to ask the server for updates
+* popular library: [https://socket.io]()
+* Persistent connection. You only connect once
+* Best for systems needing real-time data ex. _chat application_
+
+## Web Hosting
+
+### Web Hosting Wiki
+res: [https://en.wikipedia.org/wiki/Web_hosting_service]()
+* A type of internet hosting service
+* Service that makes websites accessible via World wide web
+
+### Web hosting services explained
+res: [https://firstsiteguide.com/tools/hosting/]()
+* Activity or providing service, a storage space for websites to be accessible via WWW
+* Sites are hosted or stored on servers
+
+### Web Hosts can provide
+res: [https://firstsiteguide.com/wp-content/uploads/2016/06/what-is-web-hosting-infographic.jpg]()
+
+* Resources - like Computing power, RAM, email accounts, support on your programming languages (PHP, ASP.NET), Database
+* FTP
+* Dashboard
+* Website Builder
+* Security Features
+* Tutorials on how to use their service
+* Domain name
+
+#### Types of Web hosting
+* Shared
+  * Most basic web hosting option
+  * Economical
+  * For low-moderate visitor traffic
+  * Limited Bandwidth
+
+* VPS
+  * Combination of a dedicated server + shared hosting
+  * Gives root access to the VPS
+  * Dedicated space
+  * Good for moderate visitor traffic
+
+* Dedicated
+  * Robust, Flexible, Scalable, with complete admin access
+  * Good traffic spikes management 
+  * For companies that have security and compliance requirements
+
+* Cloud
+  * Highly scalable
+  * Pay-per-use
+  * Good traffic management
+  * Small-Medium to Large Businesses
+
+* Reseller
+  * Dashboard control panels
+
+## General Front-End Development
+
+### So, You want to be a front-end engineer
+res: [https://www.youtube.com/watch?v=Lsg84NtJbmI]()
+
+#### "Dev"Olution
+* Designer
+* Hacker - poking things and coming up with solutions
+* Developer - crafts solultions and knows best practices
+* Engineer - knows the concepts behind the best practices and crafts solutions
+
+#### Lesson plan
+1. Understanding browsers
+2. Engineer's Toolbox
+3. Some best practices
+
+#### Understanding Browsers
+* Main Flow: Parse HTML -> DOM Tree -> Render Tree -> Layout and Paint
+
+* Parsing in General: needs "context-free" grammar
+  1. Input
+  2. Lexical Analysis - input is broken into tokens
+  3. Syntax Analysis - rules are applied to the token to get the output
+  4. Output
+
+* Backus-naur form - simple parsing analysis form
+
+* Parsing HTML 
+  1. Document
+  2. Tokenizer
+  3. Tree construction
+  4. DOM Tree - In-memory representation of the document
+
+* Parsing loop attaches script execution in the middle thats why it's always good to **_put scripts at the bottom_**
+  1. Speed up the parsing process
+  2. Help browsers to limit the amount of variability while parsing
+
+* DOM - interface to help us interact with the DOM Tree
+
+* Parsing CSS - Single pass using the flex / bison parser
+  * simpler parsing than HTML
+
+* Parsing JS - more complicated
+
+### Being a web developer
+res: [http://www.yellowshoe.com.au/standards/]()
+res: [https://developer.yahoo.com/performance/rules.html]()
+
+* Compilation of best practices and explanations
+
+### Planning a front-end JS App
+res: [https://www.youtube.com/watch?v=q4zEGkjTBFA]()
+slides: [http://codylindley.com/spotlight-front-end/]()
+
+#### 16 steps
+1. Verify you have working and stable api
+  * prototype to help the backend engineers
+2. Select software management tools - like version control, bug ticketing, document storage, task management
+  * examples: github, stackoverflow, slack, conceptboard, trello
+3. Create a foundational specification
+  * which devices? min resolution?
+  * which languages?
+  * offline?
+  * Accessibility Standards?
+  * SEO Strategy?
+4. Select a software development process
+  * pick one that works for the team
+5. Select host platform and Hosting service
+6. Select package managers
+7. Select site and user analytics
+8. Select code and style enforcement
+9. Select a task runner
+10. Select app architecture / structure
+11. Select testing methodologies and tools
+12. select code quality / complexity tools
+13. Define deployment strategy
+14. Select package monitoring solution
+15. Select JS error monitoring solution
+16. Select uptime and performance monitoring solution

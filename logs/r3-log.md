@@ -174,3 +174,7 @@ Great series!!!
 
 ### R3D17 29/7
 * Continued reading Front end handbook [learning notes here](large-notes/front-end.md)
+
+### R3D18 30/7
+* Reading about CORS
+* Started gathering specs for the drum machine project
