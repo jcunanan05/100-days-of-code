@@ -178,3 +178,22 @@ Great series!!!
 ### R3D18 30/7
 * Reading about CORS
 * Started gathering specs for the drum machine project
+
+### R3D19 1/8
+* Start of a new month again :)
+* Been loving the experience of SASS Mixins
+* Making the drum machine buttons. 
+* Started to think some falback layouts for old browsers
+* Learned about css interpolation in sass `#{css}` - interprets css only
+
+#### Problems encountered in making the drum machine
+* Responsive buttons
+* Thinking about if you can pass a mixin as a variable in sass, I think it isn't allowed??
+* `calc()` can't be in a sass variable
+
+#### Solutions 
+* Responsive buttons
+  1. Set breakpoint for super small device so the buttons will fit the small screen
+  2. Set `vw` in the buttons so it's responsive
+  3. Set `max-height` and `max-width` so it wont grow too large when the screen becomes so wide
+* calc -  used interpolation `calc(4rem + #{$sass-variable})`
