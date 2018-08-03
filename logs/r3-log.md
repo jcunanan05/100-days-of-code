@@ -178,6 +178,31 @@ Great series!!!
 ### R3D18 30/7
 * Reading about CORS
 * Started gathering specs for the drum machine project
+* Read about writing css conventions 
+
+* Read about some www and html history - different creators 
+
+* Reading about why CSS in JS is overused
+  * DX isn't that great, harder to debug
+  * Performance issues
+  * Best use-case
+    * better cross platform support 
+
+* Read article about everything you need to know about CSS in JS 
+  * Popular libraries 
+    * styled components
+    * jss react
+    * glamorous 
+    * radium
+    * aphrodite 
+
+* Read about Atomic design
+#### Parts of Atomic design
+* Atom
+* Molecules 
+* Organisms 
+* Templates 
+* Pages
 
 ### R3D19 1/8
 * Start of a new month again :)
