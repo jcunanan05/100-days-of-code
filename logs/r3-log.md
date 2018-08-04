@@ -222,3 +222,11 @@ Great series!!!
   2. Set `vw` in the buttons so it's responsive
   3. Set `max-height` and `max-width` so it wont grow too large when the screen becomes so wide
 * calc -  used interpolation `calc(4rem + #{$sass-variable})`
+
+### R3D21 3/8
+* Updated my portfolio site with: 
+  * Minified CSS and JS
+  * Some fallback css codes
+  * Different theme color
+
+* Continued reading Steve Krug's Don't Make Me think. Finished till part 3. [Notes Here](large-notes/dont-make-me-think.md)
