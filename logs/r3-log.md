@@ -230,3 +230,6 @@ Great series!!!
   * Different theme color
 
 * Continued reading Steve Krug's Don't Make Me think. Finished till part 3. [Notes Here](large-notes/dont-make-me-think.md)
+
+### R3D24 6/8
+* Started reading about eloquent javascript!! [notes here](large-notes/eloquent-javascript.md)
