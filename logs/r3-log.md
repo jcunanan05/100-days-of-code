@@ -1,4 +1,4 @@
-#100DaysOfCode Log - Round 3 - [Jonathan Albert Cunanan]
+# 100DaysOfCode Log - Round 3 - [Jonathan Albert Cunanan]
 
 The log of my #100DaysOfCode challenge. Started on [July 13, 2017].
 
@@ -281,9 +281,15 @@ Great series!!!
 - Continued again the drum machine!
 
 #### Problems encountered
+
 - included `/public` in the url which resulted to not found
 - forgot binding
 
 #### Solution
+
 - dont forget the `/public` folder is accessed by `/` in the url
 - don't forget binding =))
+
+### R3D29 11/8
+
+- Read about responsive images in MDN webdocs and did the exercise.
