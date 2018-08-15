@@ -298,37 +298,44 @@ Great series!!!
 
 - Continued building the Drum Machine! Had headaches =)))
 
-
 ### R3D32 14/8
 
 #### Things learned while building the drum machine
+
 - Learned about `childNode` in the DOM Api
 
 let's say i have an html element that has 2 childs, and i want to filter the `<audio>` regardless of the HTML order
+
 ```html
 <button class="sound-button">
   <kbd>Q</kbd>
 
-  <audio src="/sounds/drum.mp3" />
+  <audio src="/sounds/drum.mp3">
+  </audio>
 </button>
 ```
-and i want to select always `<audio>` even if i reorder the html inside
-```javascript
-var button = document.querySelector('.audio-button'); //will have a button DOM
 
-button.addEventListener('click', handleClick); //add click event
+and i want to select always `<audio>` even if i reorder the html inside
+
+```javascript
+var button = document.querySelector(".audio-button"); //will have a button DOM
+
+button.addEventListener("click", handleClick); //add click event
 
 function handleClick(event) {
   //filter out and fetch the audio DOM element
-  var audio = [...event.currentTarget.childNodes]
-    .filter(children => (children.tagName === 'AUDIO'))[0]; //can be also children.nodeName
+  var audio = [...event.currentTarget.childNodes].filter(
+    children => children.tagName === "AUDIO"
+  )[0]; //can be also children.nodeName
 
   audio.play(); //play audio
 }
 ```
 
-##### Summary 
+##### Summary
+
 - `childNodes` returns a `nodeList` of the elements inside the parent DOM element
+
   - _nodeList_ is like an array but not really. (_doesn't have filter method_)
   - good way is to put `nodeList` in an array
   - es5 way: loop and push them in an array
@@ -337,3 +344,9 @@ function handleClick(event) {
 - `tagName` returns a string tag name in all caps e.g. `'BUTTON', or 'AUDIO' or 'DIV'`
   - `nodeName` also does that but returns something else depending on the DOM node given
   - res: [https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName]()
+
+### R3D33 15/8
+
+- Continued the drum machine! Made the display work.
+- Did some challenges on eloquent javascript. First time to make a closure. It was amazing!
+- Continued reading eloquent javascript
