@@ -48,3 +48,17 @@
 - ability to be edited
 - Values are **immutable** (_numbers, strings, Booleans_)
 - Objects work differently, _you can change their properties._
+
+#### Correlation
+
+- How likely are the two things related
+  it is like a table:
+  e.g.
+  | |**0**|**1**|
+  |-----|:-----:|:-----:|
+  |**0**| 00 | 01 |
+  |-----|-----|-----|
+  |**1**| 10 | 11 |
+
+* 00 is for not related
+* 11 is for related

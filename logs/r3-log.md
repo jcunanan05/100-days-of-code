@@ -350,3 +350,8 @@ function handleClick(event) {
 - Continued the drum machine! Made the display work.
 - Did some challenges on eloquent javascript. First time to make a closure. It was amazing!
 - Continued reading eloquent javascript
+
+### R3D34 16/8
+
+- Styling the drum machine. It's a little bit tiring to get back up at CSS again after all the javascipt headaches =))
+- Continued reading eloquent javascript
