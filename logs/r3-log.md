@@ -355,3 +355,7 @@ function handleClick(event) {
 
 - Styling the drum machine. It's a little bit tiring to get back up at CSS again after all the javascipt headaches =))
 - Continued reading eloquent javascript
+
+### R3D35 17/8
+
+- Encountered headache at `align-content: stretch` in CSS Grid at chrome. Fallbacked to Flexbox for the meantime.
