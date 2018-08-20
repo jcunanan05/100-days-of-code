@@ -49,3 +49,37 @@ res: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embeddi
   - Image is loaded by then when you use js
 
 - `<picture>` lets you cater to modern image formats and have a fallback too
+
+## SVG
+
+### SVG Starter guide
+
+res: []()
+
+- You can start editing on your favorite vector graphics editor and import it
+
+- Optimize it
+    _ Use [svgo](https://github.com/svg/svgo)
+    _ Use few paths as possible
+
+#### You can import it on different ways
+
+- img tag
+- css background img
+- iframe tag
+- embed tag
+- object tag
+- inline svg with the svg tag
+
+#### Modifying / styling svg
+
+- inline style (meh)
+- external style (yeah)
+- You can use media queries too
+
+#### Animating
+
+- great libraries out there
+- not all projects spend time / money animating
+- best to animate at inline svg or object svg
+- You can use sprite also

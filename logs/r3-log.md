@@ -359,3 +359,10 @@ function handleClick(event) {
 ### R3D35 17/8
 
 - Encountered headache at `align-content: stretch` in CSS Grid at chrome. Fallbacked to Flexbox for the meantime.
+
+### R3D38 20/8
+
+- Continued the music school project. Used NextJS, React MUI
+  - planning to used styled-components
+
+- Updating my notes
