@@ -366,3 +366,20 @@ function handleClick(event) {
   - planning to used styled-components
 
 - Updating my notes
+
+### R3D40 22/8
+- Continued making the music school website.
+  - Discontinued react material ui, switched to bulma.css with sass instead.
+- Deployed the drum-machine fcc challenge in netlify. Installing `netlify-cli` globally in Mac OS gave me a little challenge
+  - heard that `netlify-cli` will be replaced by `netlify-ctl`
+  - The guide that helped me solved the permission error when installing npm globally. [Npm Permission docs](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+  - **TLDR;**:
+    - run these commands:
+    ```bash
+    mkdir ~/.npm-global
+    npm config set prefix '~/.npm-global'
+    export PATH=~/.npm-global/bin:$PATH
+    touch ~/.profile
+    source ~/.profile
+    ```
+    - it means you create you own storage of npm global packages, and write on your own profile settings and load it to the terminal
