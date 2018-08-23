@@ -383,3 +383,8 @@ function handleClick(event) {
     source ~/.profile
     ```
     - it means you create you own storage of npm global packages, and write on your own profile settings and load it to the terminal
+
+### R3D41 23/8
+- Read eloquent js and did some challenges
+- Continued the music school project
+  - Used Balsamiq for wireframing

@@ -130,3 +130,36 @@ e.g.
 let words = ["never", "fully"];
 console.log(["will", ...words, "understand"]); // → ["will", "never", "fully", "understand"]
 ```
+
+#### Concepts / Tips about the bindings
+* Avoid polluting the _namespace_
+  * too many global bindings (_variables_)
+* to avoid accidentally overwriting
+
+#### How to make random numbers
+* Use `Math.floor` and `Math.random`
+* e.g. `console.log(Math.floor(Math.randrom() * 10))`
+  * `Math.random()` gives only numbers between `0 and 1`
+
+### Destructuring
+* clean way to do bindings in arrays
+* e.g.
+```javascript
+let {name} = {name: "Faraji", age: 23};
+console.log(name); // → Faraji
+```
+
+### JSON
+* Way of sending data over network
+* Cannot comment on JSON
+* No function
+* e.g.
+```json
+{
+  "name": "Jonathan",
+  "details: [1, 2, 3]
+}
+```
+#### Helpful functions in JSON
+* `JSON.stringify`
+* `JSON.parse` 
