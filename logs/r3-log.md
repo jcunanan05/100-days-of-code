@@ -388,3 +388,9 @@ function handleClick(event) {
 - Read eloquent js and did some challenges
 - Continued the music school project
   - Used Balsamiq for wireframing
+
+### R3D42 24/8
+- Continued the music school project with nextjs
+  - Made and styled the navbar
+
+- Read Front end handbok. So much to learn whew.
