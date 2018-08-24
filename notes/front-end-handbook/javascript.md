@@ -42,3 +42,9 @@ res: [https://benmccormick.org/2017/07/19/ten-things-javascript/]()
 9. Performance optimization basics
 
 10. Learn more about new things. JS will evolve and evolve =))
+
+### Dom Enlightenment
+res: [http://domenlightenment.com/]()
+
+* Dom is a hierarchy of Javascript node objects
+* it's more than `event.target.value`

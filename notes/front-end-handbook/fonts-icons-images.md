@@ -54,7 +54,7 @@ res: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embeddi
 
 ### SVG Starter guide
 
-res: []()
+res: [https://svgontheweb.com/]()
 
 - You can start editing on your favorite vector graphics editor and import it
 
