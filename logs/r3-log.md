@@ -394,3 +394,6 @@ function handleClick(event) {
   - Made and styled the navbar
 
 - Read Front end handbok. So much to learn whew.
+
+### R3D43 25/8
+- Read the grab front-end handbook. So much tips on how to scale or stack your front end apps.
