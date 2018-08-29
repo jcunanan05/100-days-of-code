@@ -27,3 +27,11 @@
 #### Redux Tips
 * Only the most parent component must be connected to redux
 * When our application state changes, the `container` will automatically re-render
+
+### freeCodeCamp redux notes
+- **store** holds reducers, actions, and state
+- state updates go through a redux **action**
+  - think of it as a messenger, and the **store, validates the transaction**
+  - needs also a `type` of action 
+- to update the state, you must **dispatch** an action using the **store**
+- the **reducer** takes care of the action and returns the updated state
