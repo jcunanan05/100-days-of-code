@@ -12,12 +12,16 @@
 * Critical area when creating a redux app is **modeling the state**
 
 #### Fancy terms explained
-* Reducer - function that returns a piece of the application state
+* **Reducer** - function that returns a piece of the application state
   * App can have many states so possible that our apps have many reducers
-* Container - a component that has direct connection with the state managed by redux.
+  * Reducers can choose a piece of state depending on the _**action**_.
+* **Container** - a component that has direct connection with the state managed by redux.
   * A combined react component with a redux state
   * **How would I know when to promote a component to a container?**
     * It's the component that needs to care about the state changes.
+* **Action Creator** - function that returns an object
+  * Actions sent automatically to reducers
+* **Dispatch** - signal to send to all the reducers.
 
 #### Redux API notes
 
