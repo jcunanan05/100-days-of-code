@@ -148,3 +148,9 @@ class SignUpDialog extends React.Component {
   - Stephen grider used it to slow down searching when the user types
 
 - Callback strategy is a simple way to pass functions parent to children
+
+
+### freeCodeCamp notes
+
+* **Why use `ReactDOMServer.renderToString()` ?**
+  * For crawlers, that they can see a HTML markup

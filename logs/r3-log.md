@@ -397,3 +397,11 @@ function handleClick(event) {
 
 ### R3D43 25/8
 - Read the grab front-end handbook. So much tips on how to scale or stack your front end apps.
+
+### R3D46 28/8
+- Tried to use zeit `now` to deploy a nextJS file
+  - Discovered by default it is a server-side build
+  - Exported it to static html file and deployed it to `netlify`
+
+- Continued redux tutorial of stephen grider
+- Did some react challenges on freeCodeCamp
