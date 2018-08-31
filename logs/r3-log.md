@@ -405,3 +405,6 @@ function handleClick(event) {
 
 - Continued redux tutorial of stephen grider
 - Did some react challenges on freeCodeCamp
+
+### R3D48 30/8
+- Continued the redux tutorial. I'm in the action creators part. Getting the hang of terms, I need to always do redux challenges so I can pummel it in my brain.

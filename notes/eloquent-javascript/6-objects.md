@@ -13,3 +13,22 @@ A kinda-similiar way of object-oriented programming is introduced here. The conc
 * Javascript don't have a distinct way to differentiate _public_ from _private_
 * It is common to prefix `_` underscore at the start of property name
 * > Separating interface from implementation is a great idea. It is usually called encapsulation.
+
+### Methods
+* Properties that hold function values
+```javascript
+let rabbit = {};
+rabbit.speak = function(line) {
+  console.log(`The rabbit says '${line}'`);
+};
+
+rabbit.speak("I'm alive."); // → The rabbit says 'I'm alive.'
+```
+
+* You can access other bindings in the object using `this`
+```javascript
+function speak(line) {
+  console.log(`The ${this.type} rabbit says '${line}'`);
+}
+let whiteRabbit = {type: "white", speak};
+```
