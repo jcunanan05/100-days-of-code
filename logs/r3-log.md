@@ -408,3 +408,8 @@ function handleClick(event) {
 
 ### R3D48 30/8
 - Continued the redux tutorial. I'm in the action creators part. Getting the hang of terms, I need to always do redux challenges so I can pummel it in my brain.
+
+### R3D49 31/8
+- Continued the music school website! Been adding some content. Finally seeing some light on the site.
+- Continued the redux tutorial. Been a little bit getting the cycle of how the redux state is passed on. Event though the state is just POJO, it's a little bit difficult to memorize the data flow.
+  - > Tips: Redux state is different from the React state.

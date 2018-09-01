@@ -14,7 +14,11 @@
 * Critical area when creating a redux app is **modeling the state**
 
 #### Redux process flow
-* 
+##### Making Actions or changes in the state
+1. Redux `state` is passed to a React `<Component>` as props. (_It is now promoted to a container_)
+2. A Redux `actionCreator` function is also passed on to a React `<Component>` as props.
+3. The `actionCreator` function will `dispatch` an `action`, which is just a javascript object containing the `type:` and `payload:`
+4. The `action` will go to the `reducer`, and it will return the old or new state, depending on the `type` of `action` passed to it.
 
 #### Fancy terms explained
 * **Reducer** - function that returns a piece of the application state
@@ -45,6 +49,9 @@
   * usually the object has a `type` and a `payload`
   * `type` is usually named in allcaps separated with underscores e.g. `type: 'DO_SOMETHING'`
 * **Dispatch** - signal to send to all the reducers.
+* **State** - it is just a POJO (_Plain old Javascript Object_)
+  * The _state_ in redux is separate from the state in React.
+  * The state is formed by the _reducers_
 
 
 #### Redux API notes
