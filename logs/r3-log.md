@@ -413,3 +413,12 @@ function handleClick(event) {
 - Continued the music school website! Been adding some content. Finally seeing some light on the site.
 - Continued the redux tutorial. Been a little bit getting the cycle of how the redux state is passed on. Event though the state is just POJO, it's a little bit difficult to memorize the data flow.
   - > Tips: Redux state is different from the React state.
+
+### R3D52 3/9
+- Started planning the calculator project! It sounds ambitious because I want to try using `react`, `redux`, `jest`, and `enzyme`.. I don't know if it will work, but surely I'll use react and redux.
+
+- Been getting the hang of redux in the tutorial of Stephen Grider.
+  - setting up `mapStateToProps`
+  - setting up `mapDispatchToProps`
+  - setting up `actionCreators`
+  - setting up `actionCreators` to `reducers`

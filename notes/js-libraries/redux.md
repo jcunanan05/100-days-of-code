@@ -1,6 +1,6 @@
 ## Redux
 
-### Stephen Grider's Modern React with Redux
+### Stephen Grider's Modern React with Redu
 
 #### Introduction
 * Usually paired with a lot of different packages
@@ -52,6 +52,7 @@
 * **State** - it is just a POJO (_Plain old Javascript Object_)
   * The _state_ in redux is separate from the state in React.
   * The state is formed by the _reducers_
+* **Middleware** - Lets action pass, be manipulated, logs, or stops it.
 
 
 #### Redux API notes
@@ -62,6 +63,27 @@
 #### Redux Tips
 * Only the most parent component must be connected to redux
 * When our application state changes, the `container` will automatically re-render
+
+#### Introducing middleware
+
+##### Goals
+* Solidify knowledge of react
+* Familiarity redux
+* Handle async with redux
+
+##### Why use middleware??
+* To transform, manipulate, log or stop actions
+
+##### Why use redux-promise?
+* To handle promise based async calls before going through the reducers.
+* It will be a pain to handle it from scratch in redux
+* This will act as a middleware to stop the action going through the reducer when it is not resolved.
+
+
+#### Project Weather forecast
+* The app must only be responsible for displaying data.
+* Redux must be responsible for fetching data.
+* Gathering state over time.
 
 ### freeCodeCamp redux notes
 - **store** holds reducers, actions, and state
