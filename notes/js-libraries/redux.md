@@ -65,6 +65,9 @@
 * When our application state changes, the `container` will automatically re-render
 
 #### Introducing middleware
+* Used a package called `ReduxPromise`
+  * It takes care of ajax calls easier.
+
 
 ##### Goals
 * Solidify knowledge of react

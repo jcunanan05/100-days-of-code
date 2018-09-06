@@ -422,3 +422,8 @@ function handleClick(event) {
   - setting up `mapDispatchToProps`
   - setting up `actionCreators`
   - setting up `actionCreators` to `reducers`
+
+### R3D54 5/9
+- I think I just finished the redux course of stephen grider. It's been a great learning experience. I feel like I can apply it on my own `create-react-app`
+
+- Finished my calculator mockup as well.
