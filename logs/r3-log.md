@@ -427,3 +427,7 @@ function handleClick(event) {
 - I think I just finished the redux course of stephen grider. It's been a great learning experience. I feel like I can apply it on my own `create-react-app`
 
 - Finished my calculator mockup as well.
+
+### R3D55 6/9
+- Setup Bulma and SASS for my fcc calculator. Tried not importing it all.
+- Seeking advice on how to read somebody's code. Messaged the people I met on LinkedIn

@@ -13,4 +13,3 @@
 
 ### Some insights from the Author
 * Anything that makes your code easier to understand makes it possible to build a more ambitious system.
-
