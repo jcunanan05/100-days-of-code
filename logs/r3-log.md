@@ -431,3 +431,7 @@ function handleClick(event) {
 ### R3D55 6/9
 - Setup Bulma and SASS for my fcc calculator. Tried not importing it all.
 - Seeking advice on how to read somebody's code. Messaged the people I met on LinkedIn
+
+### R3D56 7/9
+- Did some prettier, eslint setup on my `fcc-calculator` project. I'm glad I did that before starting the project, or else my head will hurt because prettier will change almost all the files. And also, `airbnb` javascript style linter will throw all sorts of errors and I will have no idea what's going on.
+- I've added on how I did it on my [notes](/notes/js-libraries/customizing-create-react-app.md).

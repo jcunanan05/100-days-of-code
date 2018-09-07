@@ -1,8 +1,8 @@
-## Redux
+# Redux
 
-### Stephen Grider's Modern React with Redu
+## Stephen Grider's Modern React with Redu
 
-#### Introduction
+### Introduction
 * Usually paired with a lot of different packages
   * React, react-router, redux-router, redux-promise, redux-thunk, webpack
 * Separates View Layer from the Data Layer. In client-side
@@ -13,14 +13,14 @@
   * Backbone, Flux has diff stores
 * Critical area when creating a redux app is **modeling the state**
 
-#### Redux process flow
-##### Making Actions or changes in the state
+### Redux process flow
+#### Making Actions or changes in the state
 1. Redux `state` is passed to a React `<Component>` as props. (_It is now promoted to a container_)
 2. A Redux `actionCreator` function is also passed on to a React `<Component>` as props.
 3. The `actionCreator` function will `dispatch` an `action`, which is just a javascript object containing the `type:` and `payload:`
 4. The `action` will go to the `reducer`, and it will return the old or new state, depending on the `type` of `action` passed to it.
 
-#### Fancy terms explained
+### Fancy terms explained
 * **Reducer** - function that returns a piece of the application state
   * App can have many states so possible that our apps have many reducers
   * Reducers can choose a piece of state depending on the _**action**_.
@@ -55,43 +55,63 @@
 * **Middleware** - Lets action pass, be manipulated, logs, or stops it.
 
 
-#### Redux API notes
+### Redux API notes
 
 * `combineReducers` - combines all separate reducers into a single reducer object
 * Redux and react are 2 separate libraries and are connected by `react-redux` package
 
-#### Redux Tips
+### Redux Tips
 * Only the most parent component must be connected to redux
 * When our application state changes, the `container` will automatically re-render
 
-#### Introducing middleware
+### Introducing middleware
 * Used a package called `ReduxPromise`
   * It takes care of ajax calls easier.
 
 
-##### Goals
+#### Goals
 * Solidify knowledge of react
 * Familiarity redux
 * Handle async with redux
 
-##### Why use middleware??
+#### Why use middleware??
 * To transform, manipulate, log or stop actions
 
-##### Why use redux-promise?
+#### Why use redux-promise?
 * To handle promise based async calls before going through the reducers.
 * It will be a pain to handle it from scratch in redux
 * This will act as a middleware to stop the action going through the reducer when it is not resolved.
 
 
-#### Project Weather forecast
+### Project Weather forecast
 * The app must only be responsible for displaying data.
 * Redux must be responsible for fetching data.
 * Gathering state over time.
 
-### freeCodeCamp redux notes
-- **store** holds reducers, actions, and state
-- state updates go through a redux **action**
-  - think of it as a messenger, and the **store, validates the transaction**
-  - needs also a `type` of action
-- to update the state, you must **dispatch** an action using the **store**
-- the **reducer** takes care of the action and returns the updated state
+## freeCodeCamp redux notes
+
+These are notes or takeaways from doing the freeCodeCamp Challenges
+
+* **store** holds reducers, actions, and state
+* state updates go through a redux **action**
+  * think of it as a messenger, and the **store, validates the transaction**
+  * needs also a `type` of action
+* to update the state, you must **dispatch** an action using the **store**
+* the **reducer** takes care of the action and returns the updated state
+
+### Store functions
+* **dispatch** - you use dispatch to trigger a state change. you pass an `actionCreator` here.
+  ```javascript
+  
+  ```
+
+
+## Redux Notes from Official docs
+res: [https://redux.js.org/basics]()
+
+### Basic Concepts
+* Actions - the only source of information for the store
+  * They are an object
+  * You send them by using `store.dispatch()`
+  * Tip: 
+    > It's a good idea to pass as little data in each action as possible.
