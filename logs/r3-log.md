@@ -436,9 +436,14 @@ function handleClick(event) {
 - Did some prettier, eslint setup on my `fcc-calculator` project. I'm glad I did that before starting the project, or else my head will hurt because prettier will change almost all the files. And also, `airbnb` javascript style linter will throw all sorts of errors and I will have no idea what's going on.
 - I've added on how I did it on my [notes](/notes/js-libraries/customizing-create-react-app.md).
 
-### R3D59 8/9
+### R3D59 10/9
 - Started building the calculator design!! [see it live :)](https://jcunanan05-calculator.netlify.com)
 
 - Planning to revise my portfolio using bulma! And planning to study some animations to make it lively. I'm thinking of making it a webpack build. Or maybe use gatsby to build a site in react.. (?) not sure lol 
 
 - Watched State management course in front-end masters again! Ended in _state and anti patterns_ episode.
+
+### R3D60 11/9
+- Revising my portfolio site! Tried gatsby, but ended up in nextJS 
+- Reading Eloquent JS again. 
+- Planning to help our pastor with his mailchimp account.
