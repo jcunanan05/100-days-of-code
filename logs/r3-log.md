@@ -447,3 +447,7 @@ function handleClick(event) {
 - Revising my portfolio site! Tried gatsby, but ended up in nextJS 
 - Reading Eloquent JS again. 
 - Planning to help our pastor with his mailchimp account.
+
+### R3D61 12/9
+- Make some modifications on my porfolio site. Made a banner, mixed thoughts on how to do it. 
+- Figuring out my calculator on how will I do it. =))

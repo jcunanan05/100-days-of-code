@@ -18,3 +18,5 @@ Some insights from the author:
 ### Using Promises
 
 * A promise is an asynchronous action that may complete at some point and produce a value. It is able to notify anyone who is interested when its value is available.
+
+* When combining all promises results, use `Promise.all()`
