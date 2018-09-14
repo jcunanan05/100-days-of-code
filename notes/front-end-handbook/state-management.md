@@ -52,42 +52,4 @@ There are many types of state:
 
 **There's no silver bullet**
 
-### Handling state with react
-
-Notes:
-
-* `this.setState()` is almost always asynchronus. It will collect all the setStates and update them, preventing unneccessary re-renders.
-  * e.g.
-  ```javascript
-  export default class Counter extends Component {
-    constructor() {...}
-
-    increment() {
-      this.setState({ count: this.state.count + 1});
-      this.setState({ count: this.state.count + 1});
-      this.setState({ count: this.state.count + 1});
-
-      console.log(this.state.count);
-    }
-
-    render() {...}
-  }
-
-  // console.log will be 0
-  // count will be 1.
-  ```
-
-* You can also pass a function as an argument 
-```javascript
-// ...
-increment() {
-  this.setState((state) => { return { count: state.count + 1 } });
-  this.setState((state) => { return { count: state.count + 1 } });
-  this.setState((state) => { return { count: state.count + 1 } });
-}
-
-// count will be 3
-```
-  * It can give you more programatic control.
-
-* this.setState also takes a callback
+The rest of the tutorial notes are found in [/notes/tutorials/frontend-masters-state-management-react.md]()
