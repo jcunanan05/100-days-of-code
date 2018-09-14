@@ -451,3 +451,7 @@ function handleClick(event) {
 ### R3D61 12/9
 - Make some modifications on my porfolio site. Made a banner, mixed thoughts on how to do it. 
 - Figuring out my calculator on how will I do it. =))
+
+### R3D62 13/9
+- Spent my day applying to junior javascript positions
+- Watched state management videos. Finished 5. Building jetsetter exercise
