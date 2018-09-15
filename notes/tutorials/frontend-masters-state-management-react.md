@@ -89,3 +89,13 @@ render() { /*stuff to do with tweets*/}
 ```
 
 * Use state defaults. State doesn't have propTypes to check it.
+
+### Handling state in react
+* Data is passed down, and events passed up.(tedious)
+* Sharing component state. (tedious)
+* In the end, your application component will receive all the app logic, blowing up your component code.
+
+### Shared Component State Problems
+* Finding the Lowest Common Ancestor - that lowest common ancestor might not be likely you look for when finding where the state might live
+
+* Deep component trees - since we have to pass actions up, passing actions up to the common ancestor might be so deep high that it will become tedious. (_won't be good to scale_);
