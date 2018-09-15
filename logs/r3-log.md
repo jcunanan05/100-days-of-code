@@ -455,3 +455,7 @@ function handleClick(event) {
 ### R3D62 13/9
 - Spent my day applying to junior javascript positions
 - Watched state management videos. Finished 5. Building jetsetter exercise
+
+### R3D63 14/9
+- Watched state management videos again. Finished at 1. Problems of shared component state. Excited to watch the videos again.
+- Haven't coded calculator for a while. I like to plan my calculator's state management first on pen / paper first :)
