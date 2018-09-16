@@ -459,3 +459,7 @@ function handleClick(event) {
 ### R3D63 14/9
 - Watched state management videos again. Finished at 1. Problems of shared component state. Excited to watch the videos again.
 - Haven't coded calculator for a while. I like to plan my calculator's state management first on pen / paper first :)
+
+### R3D64 15/9
+- Went to fccTo coffee n' code. Had a good talk there while wiring my calculator app with redux. :)
+- Watched State management video again. Ended before 9. Render properties pattern. These are some nice patterns from extracting the view layer from the state layer.
