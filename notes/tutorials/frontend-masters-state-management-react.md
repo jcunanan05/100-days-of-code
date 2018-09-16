@@ -99,3 +99,31 @@ render() { /*stuff to do with tweets*/}
 * Finding the Lowest Common Ancestor - that lowest common ancestor might not be likely you look for when finding where the state might live
 
 * Deep component trees - since we have to pass actions up, passing actions up to the common ancestor might be so deep high that it will become tedious. (_won't be good to scale_);
+
+## Container patterns
+
+A container is a proposed solution between shared component state problems. It seperates the state and the view layer. Which is not the plan of react from the start.
+
+Here are some 3 container patterns.
+
+1. Lifting state with simple container pattern. 
+```javascript
+class Container extends Component {
+  state = {/* some state here*/}
+
+  // ...methods here
+
+  render() {
+    return (
+    <Application
+      methodOne={methodOne}
+      methodTwo={methodTwo}
+      {...this.state}
+    />);
+  }
+}
+```
+
+2. Using HOC's - steve calls it as a container factory
+  * It takes a component as an argument and returns a wrapped component
+  * Be careful this will become an anonymous class when not named, it will be hard to debug. You need to return the `Container(WrappedComponentName)` to be easier to debug
