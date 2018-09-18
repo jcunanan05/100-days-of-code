@@ -463,3 +463,8 @@ function handleClick(event) {
 ### R3D64 15/9
 - Went to fccTo coffee n' code. Had a good talk there while wiring my calculator app with redux. :)
 - Watched State management video again. Ended before 9. Render properties pattern. These are some nice patterns from extracting the view layer from the state layer.
+
+### R3D65 17/9
+- Watched again Jesse Showalter's workflow. I learned some UX workflows to show some ideas to the client
+- Setup a repo in github for the step up toronto community project.
+- Learned about how express and NextJS work together.
