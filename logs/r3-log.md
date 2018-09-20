@@ -468,3 +468,7 @@ function handleClick(event) {
 - Watched again Jesse Showalter's workflow. I learned some UX workflows to show some ideas to the client
 - Setup a repo in github for the step up toronto community project.
 - Learned about how express and NextJS work together.
+
+### R3D66 18/9
+- Wrote a redux playground in stackblitz! got some amazing feedbacks
+- did an eloquent javascript exercise! Didn't finish it tho
