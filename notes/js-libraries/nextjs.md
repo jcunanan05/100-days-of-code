@@ -17,3 +17,11 @@ e.g. `<Link as={/`p/${props.id/`} href={/`/post?title=${props.title}/`}'} />`
 
 ## Server-rendered components
 - Server rendered components with ajax request can use the `getInitialProps` method from nextJS
+
+
+## How to deploy to heroku
+1. Check this [article](https://medim.com/@jacoboakley/deploy-a-next-js-app-on-heroku-69bcb01db1b7)
+  - Summary:
+  - Before pushing your changes to github, you must have a 'heroku-postbuild' script. Heroku runs this before deploying.
+  - Connect your github repo to heroku using heroku's dashboard
+2. Check some next js [deployment examples](https://github.com/zeit/next.js/tree/3949c82bdfe268f841178979800aa8e71bbf412c/examples/custom-server-express)

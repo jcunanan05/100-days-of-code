@@ -472,3 +472,10 @@ function handleClick(event) {
 ### R3D66 18/9
 - Wrote a redux playground in stackblitz! got some amazing feedbacks
 - did an eloquent javascript exercise! Didn't finish it tho
+
+### R3D67 21/9
+- Started coding and deploying some sample code to heroku.
+- Learned some tips in deploying NextJS + Express to heroku.
+  1. Be careful what you put in dev dependencies, it will be removed on deployment
+  2. Check your port number. If you hardcode it to port 3000 it will cause error.
+- Wrote how to deploy nextJS app to heroku.
