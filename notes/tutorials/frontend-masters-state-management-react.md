@@ -127,3 +127,30 @@ class Container extends Component {
 2. Using HOC's - steve calls it as a container factory
   * It takes a component as an argument and returns a wrapped component
   * Be careful this will become an anonymous class when not named, it will be hard to debug. You need to return the `Container(WrappedComponentName)` to be easier to debug
+
+3. Render Properties
+  * The container component uses a props called `render` for more declarative code.
+```javascript
+<WithCount render={
+    (count, increment) => (
+      <Counter count={count} onIncrement={increment} />
+    )
+  }
+/>
+```
+
+## How do you know when to use state management?
+* Unless you know it will be a big app, start with setState until it hurts
+  * You can use the container pattern to separate data from view
+  * Easier to migrate to flux or redux or mobx that way
+* Good programming is when you can change your mind on later
+  * more wiggle room
+
+
+# State management with Flux
+Flux is a pattern. It has a library just only with utils.
+
+Terms:
+* Dispatcher - receives things in your app and figures out what to do with it.
+  * Looks like the `pub/sub` pattern (publish / subscribe) - but pub/sub you only subscribe on the things you want to listen to. e.g. `addEventListener`
+

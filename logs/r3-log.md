@@ -479,3 +479,6 @@ function handleClick(event) {
   1. Be careful what you put in dev dependencies, it will be removed on deployment
   2. Check your port number. If you hardcode it to port 3000 it will cause error.
 - Wrote how to deploy nextJS app to heroku.
+
+### R3D68 22/9
+- Finish Flux ep 2 of State management videos.
