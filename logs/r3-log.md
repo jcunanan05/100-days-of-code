@@ -482,3 +482,6 @@ function handleClick(event) {
 
 ### R3D68 22/9
 - Finish Flux ep 2 of State management videos.
+
+### R3D69 23/9
+- Finish ep 7 of Testing react apps of frontend masters. 
