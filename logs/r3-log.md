@@ -363,11 +363,13 @@ function handleClick(event) {
 ### R3D38 20/8
 
 - Continued the music school project. Used NextJS, React MUI
+
   - planning to used styled-components
 
 - Updating my notes
 
 ### R3D40 22/8
+
 - Continued making the music school website.
   - Discontinued react material ui, switched to bulma.css with sass instead.
 - Deployed the drum-machine fcc challenge in netlify. Installing `netlify-cli` globally in Mac OS gave me a little challenge
@@ -385,21 +387,27 @@ function handleClick(event) {
     - it means you create you own storage of npm global packages, and write on your own profile settings and load it to the terminal
 
 ### R3D41 23/8
+
 - Read eloquent js and did some challenges
 - Continued the music school project
   - Used Balsamiq for wireframing
 
 ### R3D42 24/8
+
 - Continued the music school project with nextjs
+
   - Made and styled the navbar
 
 - Read Front end handbok. So much to learn whew.
 
 ### R3D43 25/8
+
 - Read the grab front-end handbook. So much tips on how to scale or stack your front end apps.
 
 ### R3D46 28/8
+
 - Tried to use zeit `now` to deploy a nextJS file
+
   - Discovered by default it is a server-side build
   - Exported it to static html file and deployed it to `netlify`
 
@@ -407,14 +415,17 @@ function handleClick(event) {
 - Did some react challenges on freeCodeCamp
 
 ### R3D48 30/8
+
 - Continued the redux tutorial. I'm in the action creators part. Getting the hang of terms, I need to always do redux challenges so I can pummel it in my brain.
 
 ### R3D49 31/8
+
 - Continued the music school website! Been adding some content. Finally seeing some light on the site.
 - Continued the redux tutorial. Been a little bit getting the cycle of how the redux state is passed on. Event though the state is just POJO, it's a little bit difficult to memorize the data flow.
   - > Tips: Redux state is different from the React state.
 
 ### R3D52 3/9
+
 - Started planning the calculator project! It sounds ambitious because I want to try using `react`, `redux`, `jest`, and `enzyme`.. I don't know if it will work, but surely I'll use react and redux.
 
 - Been getting the hang of redux in the tutorial of Stephen Grider.
@@ -424,56 +435,68 @@ function handleClick(event) {
   - setting up `actionCreators` to `reducers`
 
 ### R3D54 5/9
+
 - I think I just finished the redux course of stephen grider. It's been a great learning experience. I feel like I can apply it on my own `create-react-app`
 
 - Finished my calculator mockup as well.
 
 ### R3D55 6/9
+
 - Setup Bulma and SASS for my fcc calculator. Tried not importing it all.
 - Seeking advice on how to read somebody's code. Messaged the people I met on LinkedIn
 
 ### R3D56 7/9
+
 - Did some prettier, eslint setup on my `fcc-calculator` project. I'm glad I did that before starting the project, or else my head will hurt because prettier will change almost all the files. And also, `airbnb` javascript style linter will throw all sorts of errors and I will have no idea what's going on.
 - I've added on how I did it on my [notes](/notes/js-libraries/customizing-create-react-app.md).
 
 ### R3D59 10/9
+
 - Started building the calculator design!! [see it live :)](https://jcunanan05-calculator.netlify.com)
 
-- Planning to revise my portfolio using bulma! And planning to study some animations to make it lively. I'm thinking of making it a webpack build. Or maybe use gatsby to build a site in react.. (?) not sure lol 
+- Planning to revise my portfolio using bulma! And planning to study some animations to make it lively. I'm thinking of making it a webpack build. Or maybe use gatsby to build a site in react.. (?) not sure lol
 
 - Watched State management course in front-end masters again! Ended in _state and anti patterns_ episode.
 
 ### R3D60 11/9
-- Revising my portfolio site! Tried gatsby, but ended up in nextJS 
-- Reading Eloquent JS again. 
+
+- Revising my portfolio site! Tried gatsby, but ended up in nextJS
+- Reading Eloquent JS again.
 - Planning to help our pastor with his mailchimp account.
 
 ### R3D61 12/9
-- Make some modifications on my porfolio site. Made a banner, mixed thoughts on how to do it. 
+
+- Make some modifications on my porfolio site. Made a banner, mixed thoughts on how to do it.
 - Figuring out my calculator on how will I do it. =))
 
 ### R3D62 13/9
+
 - Spent my day applying to junior javascript positions
 - Watched state management videos. Finished 5. Building jetsetter exercise
 
 ### R3D63 14/9
+
 - Watched state management videos again. Finished at 1. Problems of shared component state. Excited to watch the videos again.
 - Haven't coded calculator for a while. I like to plan my calculator's state management first on pen / paper first :)
 
 ### R3D64 15/9
+
 - Went to fccTo coffee n' code. Had a good talk there while wiring my calculator app with redux. :)
 - Watched State management video again. Ended before 9. Render properties pattern. These are some nice patterns from extracting the view layer from the state layer.
 
 ### R3D65 17/9
+
 - Watched again Jesse Showalter's workflow. I learned some UX workflows to show some ideas to the client
 - Setup a repo in github for the step up toronto community project.
 - Learned about how express and NextJS work together.
 
 ### R3D66 18/9
+
 - Wrote a redux playground in stackblitz! got some amazing feedbacks
 - did an eloquent javascript exercise! Didn't finish it tho
 
 ### R3D67 21/9
+
 - Started coding and deploying some sample code to heroku.
 - Learned some tips in deploying NextJS + Express to heroku.
   1. Be careful what you put in dev dependencies, it will be removed on deployment
@@ -481,7 +504,21 @@ function handleClick(event) {
 - Wrote how to deploy nextJS app to heroku.
 
 ### R3D68 22/9
+
 - Finish Flux ep 2 of State management videos.
 
 ### R3D69 23/9
-- Finish ep 7 of Testing react apps of frontend masters. 
+
+- Finish ep 7 of Testing react apps of frontend masters.
+
+### R3D70 25/9
+
+- Learned some underline tactics for headers. It's my first time to use `::after` [see it here](/notes/css.md)
+- Spent 4h thinking of composition of components
+- Make scroll effect using vanilla js `scrollIntoView`
+
+### R3D71 26/9
+
+- Explored different animation libraries, chose between popmotion's `react-posed` and google-fabric's `velocity-react`, settled with just `VelocityJS` and will install velocity-react when I need it along the way.
+- Made scroll effect using velocity.
+- Started CSS3 by Brad Hussey
