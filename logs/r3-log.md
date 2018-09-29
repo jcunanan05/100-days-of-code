@@ -513,7 +513,7 @@ function handleClick(event) {
 
 ### R3D70 25/9
 
-- Learned some underline tactics for headers. It's my first time to use `::after` [see it here](/notes/css.md)
+- Learned some underline tactics for headers. It's my first time to use `::after` [see it here](/notes/design/css.md)
 - Spent 4h thinking of composition of components
 - Make scroll effect using vanilla js `scrollIntoView`
 
@@ -522,3 +522,9 @@ function handleClick(event) {
 - Explored different animation libraries, chose between popmotion's `react-posed` and google-fabric's `velocity-react`, settled with just `VelocityJS` and will install velocity-react when I need it along the way.
 - Made scroll effect using velocity.
 - Started CSS3 by Brad Hussey
+
+### R3D72 28/9
+
+- Configured bulma variables to change my site theme. Cool architecture by bulma. :)
+
+- Got some good tips about complexity management, like folder structures. Planning to manage my folders too for tomorrow.
