@@ -528,3 +528,7 @@ function handleClick(event) {
 - Configured bulma variables to change my site theme. Cool architecture by bulma. :)
 
 - Got some good tips about complexity management, like folder structures. Planning to manage my folders too for tomorrow.
+
+### R3D73 29/9
+
+- Watch some frontend masters state management videos, learned about the flux architecture. Need practice to do the exercises tho. Finished at vid 07
