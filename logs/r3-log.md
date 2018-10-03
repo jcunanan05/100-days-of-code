@@ -532,3 +532,11 @@ function handleClick(event) {
 ### R3D73 29/9
 
 - Watch some frontend masters state management videos, learned about the flux architecture. Need practice to do the exercises tho. Finished at vid 07
+
+### R3D74 1/10
+
+- Can't believe it's october now. Spent my day doing a 21-day coding challenge and fixing my folder structure for the community project.
+
+### R3D75 2/10
+
+- Spent my day going through next-js tutorials and deciding whether should I use `styled-jsx`. Honestly idk.
