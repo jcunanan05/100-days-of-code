@@ -540,3 +540,13 @@ function handleClick(event) {
 ### R3D75 2/10
 
 - Spent my day going through next-js tutorials and deciding whether should I use `styled-jsx`. Honestly idk.
+
+### R3D76 3/10
+
+- Missed `{}` made me don't know what's wrong for 2 hours. In my react component, `const Image = ({ src, alt }) => (/*..*/)`, I forgot my curly braces. I was so happy / irritated after I figured it out. haha
+
+### R3D77 4/11
+
+- Built a card component. Oh yeahh!!
+
+- Experimenting on `marked.js`, Luckily, I've done a markdown previewer challenge before, so I just copied my library function from github! Separated code paid off.
