@@ -550,3 +550,9 @@ function handleClick(event) {
 - Built a card component. Oh yeahh!!
 
 - Experimenting on `marked.js`, Luckily, I've done a markdown previewer challenge before, so I just copied my library function from github! Separated code paid off.
+
+### R3D78 5/11
+
+- Exploring Contentful Docs! CMS ftw. Planning to implement CMS to our upcoming projects / news / Vision.
+
+- CMS looks a fun tech to play with specially if you're front end dev. Looks like, i'll be dealing with more markdown from now on. :)
