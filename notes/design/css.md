@@ -23,3 +23,10 @@ CSS
   content: "";
 }
 ```
+
+## Making 3d effect on buttons
+
+1. Make a border shadow offset.
+2. Add triangles on corners using pseudo elements `::before` and `::after`
+
+[full example here](https://codepen.io/jcunanan05/pen/gBggWZ)

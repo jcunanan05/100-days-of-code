@@ -545,14 +545,18 @@ function handleClick(event) {
 
 - Missed `{}` made me don't know what's wrong for 2 hours. In my react component, `const Image = ({ src, alt }) => (/*..*/)`, I forgot my curly braces. I was so happy / irritated after I figured it out. haha
 
-### R3D77 4/11
+### R3D77 4/10
 
 - Built a card component. Oh yeahh!!
 
 - Experimenting on `marked.js`, Luckily, I've done a markdown previewer challenge before, so I just copied my library function from github! Separated code paid off.
 
-### R3D78 5/11
+### R3D78 5/10
 
 - Exploring Contentful Docs! CMS ftw. Planning to implement CMS to our upcoming projects / news / Vision.
 
 - CMS looks a fun tech to play with specially if you're front end dev. Looks like, i'll be dealing with more markdown from now on. :)
+
+### R3D79 8/8
+
+- Learned about making triangles using border. View it here. [https://codepen.io/jcunanan05/pen/gBggWZ](https://codepen.io/jcunanan05/pen/gBggWZ)
