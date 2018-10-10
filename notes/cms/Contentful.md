@@ -29,3 +29,36 @@ You need these set of credentials:
 ### Normalize
 
 Think of your content as like designing SQL tables. E.g. Product, you have brands and categories, which is another table again.
+
+## Reference Fields and Content Type
+
+res: [https://www.contentful.com/r/knowledgebase/content-modelling-basics/#the-basics]()
+
+These are the heart of the CMS. Since this is a innovative CMS as they say, they said to throw off your old knowledge of what a CMS is.
+
+Contentful says: "Your content doesn’t have to be fit into our model – instead, you make the model to fit your content"
+
+### When to use multiple spaces
+
+Use multiple spaces when:
+
+- When you have a different project
+- Testing playground
+
+### Content Type
+
+Think of Content Type as a Header. You'll assign fields here, or even another content type.
+
+e.g. You have a content type: `Post`, it has `content` field, `title` field, and an `Author` content type. An Author content types contains fields related to the author.
+
+### Duplicate and Delete Content types
+
+You can only delete content types if you empty its contents. It's a restraint that contentful put so you can't accidentaly remove a content type.
+
+### Disabled Fields
+
+Disabled fields means this can't be fetched. It might be project status or something.
+
+#### Deleting Fields
+
+You must disable it first. It's contentful's way of avoiding it to be deleted by accident

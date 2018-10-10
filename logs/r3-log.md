@@ -560,3 +560,11 @@ function handleClick(event) {
 ### R3D79 8/8
 
 - Learned about making triangles using border. View it here. [https://codepen.io/jcunanan05/pen/gBggWZ](https://codepen.io/jcunanan05/pen/gBggWZ)
+
+### R3D80 9/8
+
+- Explored Contentful by making a content model for my community website
+
+- Haven't hooked up my website to Contentful api tho
+
+- Setup a environment DEV variables.
