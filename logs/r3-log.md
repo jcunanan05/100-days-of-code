@@ -568,3 +568,13 @@ function handleClick(event) {
 - Haven't hooked up my website to Contentful api tho
 
 - Setup a environment DEV variables.
+
+### R3D81 10/8
+
+- Made a simple fetch to contentful api. After getting bugs and don't understand how the sdk works, finally made it work.
+
+### R3D82 11/8
+
+- Made fetching data from contentful work. Encountered some bugs and headaches. My bug is because of mutating a state. Took me 6 hours to do a task.
+
+- Wrote my takeaways in my notes.

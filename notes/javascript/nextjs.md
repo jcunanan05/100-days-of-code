@@ -1,4 +1,4 @@
-## Next JS notes
+# Next JS notes
 
 - The only special folder is pages folder.
 - Link tag in next is like the react router
@@ -56,3 +56,34 @@ const Highlight = dynamic(import("react-highlight"));
 ```
 
 - [further reading](https://nextjs.org/learn/excel/lazy-loading-components/hello-dynamic-components)
+
+## Use `.env` variables in next js
+
+You need to install the package `dotenv`, and you need to put this code in your nextjs config
+
+```js
+// next.config.js
+require("dotenv").config();
+const webpack = require("webpack");
+
+module.exports = {
+  webpack: (config, { dev }) => {
+    config.plugins.push(new webpack.EnvironmentPlugin(process.env));
+    return config;
+  }
+};
+```
+
+## Loading postcss plugins
+
+1. Install the postcss plugin in your package.
+2. Make a `postcss.config.js` file.
+
+```js
+const autoprefixer = require("autoprefixer");
+const postCssClean = require("postcss-clean");
+
+module.exports = {
+  plugins: [autoprefixer, postCssClean]
+};
+```
