@@ -578,3 +578,11 @@ function handleClick(event) {
 - Made fetching data from contentful work. Encountered some bugs and headaches. My bug is because of mutating a state. Took me 6 hours to do a task.
 
 - Wrote my takeaways in my notes.
+
+### R3D83 12/8
+
+- Finally got to work fetching data from Contentful to Next.js. I hope i can test my data model but I don't want to experience stuck at config when installing a testing framework. =))
+
+- Need to document the Data Model of the CMS in relation to the website for more clarification.
+
+- Finish a coding challenge.
