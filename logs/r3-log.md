@@ -318,14 +318,14 @@ let's say i have an html element that has 2 childs, and i want to filter the `<a
 and i want to select always `<audio>` even if i reorder the html inside
 
 ```javascript
-var button = document.querySelector(".audio-button"); //will have a button DOM
+var button = document.querySelector('.audio-button'); //will have a button DOM
 
-button.addEventListener("click", handleClick); //add click event
+button.addEventListener('click', handleClick); //add click event
 
 function handleClick(event) {
   //filter out and fetch the audio DOM element
   var audio = [...event.currentTarget.childNodes].filter(
-    children => children.tagName === "AUDIO"
+    children => children.tagName === 'AUDIO'
   )[0]; //can be also children.nodeName
 
   audio.play(); //play audio
@@ -586,3 +586,7 @@ function handleClick(event) {
 - Need to document the Data Model of the CMS in relation to the website for more clarification.
 
 - Finish a coding challenge.
+
+### R3D84 15/8
+
+- Learned some CI basics. Used travisCI. Very nice experience.
