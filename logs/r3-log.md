@@ -590,3 +590,13 @@ function handleClick(event) {
 ### R3D84 15/8
 
 - Learned some CI basics. Used travisCI. Very nice experience.
+
+### R3D85 17/8
+
+- Attended facebook developer conference. Watched GraphQL talks and live coding.
+
+### R3D86 18/8
+
+- Haven't continued my community website project.
+- Attended a IBM talks called Innovation Forum 2018. Saw some cool stuff to do with technology. Food was great too.
+- Watched state management videos as well.

@@ -10,7 +10,9 @@ Frontend masters notes
 
 - If flux has multiple stores, redux has only 1 immutable state tree. When managing multiple stores that interact with each other, it is hard to manage.
 
-- Redux is a small library. Contains 5 major functions. `combineReducers()`, `compose()`, `createStore()`, `bindActionCreators()`,
+- Redux is a small library. Contains 5 major functions. `combineReducers()`, `compose()`, `createStore()`, `bindActionCreators()`, `applyMiddleware()`
+
+- Because it is in only one store, you can effectively serialize the whole tree and send it
 
 ### Immutable state tree
 
@@ -23,7 +25,18 @@ Frontend masters notes
 - `combineReducers` - the way redux works is you make small reducers and combine them into one big reducer. That's what combineReducers do.
 
 - `createStore` - it is where to store the state.
+
   - This has helper methods like `subscribe()`, `dispatch()`, `unsubscribe()`, etc...
+
+- `bindActionCreators` - when want multiple action creators to dispatch. You'll pass an object of action creators.
+
+- `applyMiddleware` - intermediary operations done before the result is returned. Under the hood, middleware has done something, and passed it to the next middleware. Steve said it is curried on top of curried
+
+#### Notes on redux functions
+
+- When you `subscribe` to a store, it will return an unsubscribe method you can use to unsubscribe
+
+- In a store, you must pass a reducer. You can combine small reducer into 1 big object reducer by `createStore(combineReducers({ }))`
 
 ## High level processes of how redux works
 
