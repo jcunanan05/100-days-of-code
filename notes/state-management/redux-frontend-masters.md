@@ -28,7 +28,7 @@ Frontend masters notes
 
   - This has helper methods like `subscribe()`, `dispatch()`, `unsubscribe()`, etc...
 
-- `bindActionCreators` - when want multiple action creators to dispatch. You'll pass an object of action creators.
+- `bindActionCreators` - combining action creators on a single object with the dispatch method.
 
 - `applyMiddleware` - intermediary operations done before the result is returned. Under the hood, middleware has done something, and passed it to the next middleware. Steve said it is curried on top of curried
 
@@ -44,3 +44,28 @@ Frontend masters notes
 2. Stuff happens in the reducer
 3. New state is returned
 4. New state is delivered to the one who needs it.
+
+## Redux tradeoffs
+
+Biggest tradoff? **Indirection**
+
+`this.setState()` is simpler, easier to reason out.
+
+Think of short term state vs long term state
+
+## React-redux Library
+
+Small Library - it contains only a `<Provider />` and a `connect()`
+
+`connect` - It is a HOC (Higher-order Component) pattern.
+
+```js
+connect(
+  state,
+  dispatch
+)(Component);
+```
+
+`mapStateToProps` - pick things from the store that you need and pass it to the component as props
+
+`mapDispatchToProps` - pick action creators that you need and pass it to components as props

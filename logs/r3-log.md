@@ -600,3 +600,9 @@ function handleClick(event) {
 - Haven't continued my community website project.
 - Attended a IBM talks called Innovation Forum 2018. Saw some cool stuff to do with technology. Food was great too.
 - Watched state management videos as well.
+
+### R3D87 21/8
+
+- Done a state management exercise with redux
+- Add redux notes
+- Got a facebook dev circles mentor
