@@ -606,3 +606,12 @@ function handleClick(event) {
 - Done a state management exercise with redux
 - Add redux notes
 - Got a facebook dev circles mentor
+
+### R3D88 24/8
+
+- Continued coding StepUp Now Website. Added a contact us section.
+
+### R3D89 25/8
+
+- Done some refactoring and code decisions. Feeling good about the code.
+- Finished State Management Workshop. Been a hell of a ride. Learned about the patterns underlying Redux and Mobx (Immutable state tree vs Dependency Graphs)
