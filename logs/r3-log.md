@@ -625,3 +625,9 @@ function handleClick(event) {
 
 - Continued to code my portfolio. Resorted to create-react-app and Material Design Lite CSS framework
 - Tried to make tests. Feeling good 
+
+### R3D92 30/10
+
+- Continued my portfolio again. Seeing light on the design side. It's challenging but I see it.
+
+- Code my calculator. Done with the design. I'm now ready to hook redux. 
