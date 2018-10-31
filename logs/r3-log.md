@@ -557,11 +557,11 @@ function handleClick(event) {
 
 - CMS looks a fun tech to play with specially if you're front end dev. Looks like, i'll be dealing with more markdown from now on. :)
 
-### R3D79 8/8
+### R3D79 8/10
 
 - Learned about making triangles using border. View it here. [https://codepen.io/jcunanan05/pen/gBggWZ](https://codepen.io/jcunanan05/pen/gBggWZ)
 
-### R3D80 9/8
+### R3D80 9/10
 
 - Explored Contentful by making a content model for my community website
 
@@ -569,17 +569,17 @@ function handleClick(event) {
 
 - Setup a environment DEV variables.
 
-### R3D81 10/8
+### R3D81 10/10
 
 - Made a simple fetch to contentful api. After getting bugs and don't understand how the sdk works, finally made it work.
 
-### R3D82 11/8
+### R3D82 11/10
 
 - Made fetching data from contentful work. Encountered some bugs and headaches. My bug is because of mutating a state. Took me 6 hours to do a task.
 
 - Wrote my takeaways in my notes.
 
-### R3D83 12/8
+### R3D83 12/10
 
 - Finally got to work fetching data from Contentful to Next.js. I hope i can test my data model but I don't want to experience stuck at config when installing a testing framework. =))
 
@@ -587,31 +587,41 @@ function handleClick(event) {
 
 - Finish a coding challenge.
 
-### R3D84 15/8
+### R3D84 15/10
 
 - Learned some CI basics. Used travisCI. Very nice experience.
 
-### R3D85 17/8
+### R3D85 17/10
 
 - Attended facebook developer conference. Watched GraphQL talks and live coding.
 
-### R3D86 18/8
+### R3D86 18/10
 
 - Haven't continued my community website project.
 - Attended a IBM talks called Innovation Forum 2018. Saw some cool stuff to do with technology. Food was great too.
 - Watched state management videos as well.
 
-### R3D87 21/8
+### R3D87 21/10
 
 - Done a state management exercise with redux
 - Add redux notes
 - Got a facebook dev circles mentor
 
-### R3D88 24/8
+### R3D88 24/10
 
 - Continued coding StepUp Now Website. Added a contact us section.
 
-### R3D89 25/8
+### R3D89 25/10
 
 - Done some refactoring and code decisions. Feeling good about the code.
 - Finished State Management Workshop. Been a hell of a ride. Learned about the patterns underlying Redux and Mobx (Immutable state tree vs Dependency Graphs)
+
+### R3D90 28/10
+
+- Spent my coding time configuring webpack, got the basics.
+- Watched Testing workshop 
+
+### R3D91 29/10
+
+- Continued to code my portfolio. Resorted to create-react-app and Material Design Lite CSS framework
+- Tried to make tests. Feeling good 
