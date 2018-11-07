@@ -619,15 +619,27 @@ function handleClick(event) {
 ### R3D90 28/10
 
 - Spent my coding time configuring webpack, got the basics.
-- Watched Testing workshop 
+- Watched Testing workshop
 
 ### R3D91 29/10
 
 - Continued to code my portfolio. Resorted to create-react-app and Material Design Lite CSS framework
-- Tried to make tests. Feeling good 
+- Tried to make tests. Feeling good
 
 ### R3D92 30/10
 
 - Continued my portfolio again. Seeing light on the design side. It's challenging but I see it.
 
-- Code my calculator. Done with the design. I'm now ready to hook redux. 
+- Code my calculator. Done with the design. I'm now ready to hook redux.
+
+### R3D93 4/10
+
+- Read through react docs. Updated my notes.
+
+### R3D94 5/10
+
+- Coded calculator. Learned about `React.forwardRef()`. Basically it's like HOC.
+
+### R3D95 6/10
+
+- Implemented decimal in calculator. Made some challenging decisions on how to put decimal in the calculator
