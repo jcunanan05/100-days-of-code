@@ -144,8 +144,8 @@ Great series!!!
 - [Preloading](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content) eg:
 
 ```html
-  <link rel="preload" href="style.css" as="style">
-  <link rel="preload" href="main.js" as="script">
+<link rel="preload" href="style.css" as="style" />
+<link rel="preload" href="main.js" as="script" />
 ```
 
 ### R3D14 26/7
@@ -310,8 +310,7 @@ let's say i have an html element that has 2 childs, and i want to filter the `<a
 <button class="sound-button">
   <kbd>Q</kbd>
 
-  <audio src="/sounds/drum.mp3">
-  </audio>
+  <audio src="/sounds/drum.mp3"></audio>
 </button>
 ```
 
@@ -643,3 +642,8 @@ function handleClick(event) {
 ### R3D95 6/10
 
 - Implemented decimal in calculator. Made some challenging decisions on how to put decimal in the calculator
+
+### R3D96 7/10
+
+- Researched about surveymonkey embeds for my first gig hooray 🎉
+- Watched Mike Monteiro's famous talk about freelancing.

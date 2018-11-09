@@ -24,7 +24,7 @@ res: [https://www.youtube.com/watch?v=fsTzLgra5dQ]()
 
 - You must connect how can your website can solve/improve their businesses
 
-__Bridge the developer disconnect__
+**Bridge the developer disconnect**
 
 Focus on the problems you're gonna solve.
 
@@ -50,7 +50,6 @@ You can learn it like coding. You can break it donw into 3.
 
 - Use paid ads
 
-
 ## How to price yourself as a Freelance Developer
 
 res: [https://blog.inkdrop.info/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91]()
@@ -61,11 +60,11 @@ It's easy to charge hourly rate. But that's not the case. You measure based on t
 
 ### How to charge?
 
-No formulas. Trust yourself. Evaluate on this criteria: 
+No formulas. Trust yourself. Evaluate on this criteria:
 
 - Efficiency, Urgency, Specialty, Effectiveness
 
-The desired price is affected by your confidence. 
+The desired price is affected by your confidence.
 
 #### Know your market price roughly
 
@@ -86,3 +85,33 @@ Refer to your friend
 ### Don't sell yourself cheap
 
 Measure your price and consider the criteria. Make first a quote and explain reasons. Make metrics to prove why.
+
+## Mike Monteiro's Freelancing tips
+
+src: [f u pay me talk](https://www.youtube.com/watch?v=6h3RJhoqgK8)
+
+### Getting a contract
+
+Contracts must have clear definitions, expectations. Check the client's contract template. It might be outdated too.
+Also you can leave a little bit of wiggle room, but what must be important, you musn't backdown from it.
+
+Get a good lawyer.
+
+### 6 tips from Mike
+
+1. Contracts protects both parties
+2. Don't work without contract
+3. Make your lawyer review the contract. It might be outdated. Clients don't know what's inside their contract.
+4. Anticipate negotiation, don't backdown on important stuff.
+
+- IP transfers on full payment
+- Termination fee / kill fee for without good reason. Termination fee might be the hours you've worked for, or the next pay
+- Liability - it means you're in trouble and you bear responsibility
+
+5. Lawyer must talk to lawyer - you might say yes or pressured to talk to a lawyer
+6. Be confident about money - "If the client asks you, 'How much?' The moment you say 'Uhm' you lose 10k grand 😂"
+
+### Takeaways
+- Contracts up front
+- Internal Allies
+- Advisors
