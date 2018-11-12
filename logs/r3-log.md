@@ -631,19 +631,34 @@ function handleClick(event) {
 
 - Code my calculator. Done with the design. I'm now ready to hook redux.
 
-### R3D93 4/10
+### R3D93 4/11
 
 - Read through react docs. Updated my notes.
 
-### R3D94 5/10
+### R3D94 5/11
 
 - Coded calculator. Learned about `React.forwardRef()`. Basically it's like HOC.
 
-### R3D95 6/10
+### R3D95 6/11
 
 - Implemented decimal in calculator. Made some challenging decisions on how to put decimal in the calculator
 
-### R3D96 7/10
+### R3D96 7/11
 
 - Researched about surveymonkey embeds for my first gig hooray 🎉
 - Watched Mike Monteiro's famous talk about freelancing.
+
+### R3D97 9/11
+
+- Code a little bit with bootstrap. Gathering my proposals for my gig
+
+- Worked a little bit on my calculator
+
+### R3D98 10/11
+
+- Watched Testing Workshop. Discovered about `react-testing-library` that kent dodds made. He expressed his opinions about enzyme.
+
+### R3D99 12/11
+
+- Watched first web dev job talks
+- Watched Psychology of code testability.
