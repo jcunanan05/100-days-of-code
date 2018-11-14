@@ -662,3 +662,8 @@ function handleClick(event) {
 
 - Watched first web dev job talks
 - Watched Psychology of code testability.
+- Coded my portfolio
+
+### R3D100 13/11
+
+- Added a percentage function on a calculator. Redux is very cool.
