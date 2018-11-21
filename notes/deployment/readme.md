@@ -20,3 +20,11 @@ Merging small code changes frequently, in the opposite of building the whole cod
 - Container-based - default environment, Linux Ubuntu environment, faster to startup, less resources and doesn't support sudo
 - Sudo-enabled - Linux Ubuntu environment, full virtual-machine environment, starts slower than containers, more resources, and supports `sudo`
 - OSX - uses OSX OS, useful for building projects that require OSX (Swift)
+
+## Connecting a Domain name on a VPS
+
+I recently experienced first time on how to connect a Go Daddy domain on a VPS container, AWS Lightsail.
+
+1. Go to GoDaddy Dashboard > DNS Management
+2. Look for the root DNS document called `@`
+3. `@` means root, then put a static IP there. The static IP will be found on your AWS Lightsail Instance.
