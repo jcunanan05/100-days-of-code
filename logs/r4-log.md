@@ -27,3 +27,15 @@
 ### R4D6 20/11
 
 - Code my client's revisions on section names. Already deployed my app on the internet. Stayed up to 3 am now. Thinking of ways how to simplify deployment.
+
+### R4D7 21/11
+
+- Attend the Facebook dev circles meetup
+
+### R4D8 23/11
+
+- Rewrote my react portfolio from scratch
+
+### R4D9 24/11
+
+- Watched Kent Advanced react patterns tutorial. Learned about the updater function.
