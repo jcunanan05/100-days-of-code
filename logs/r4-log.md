@@ -39,3 +39,15 @@
 ### R4D9 24/11
 
 - Watched Kent Advanced react patterns tutorial. Learned about the updater function.
+
+### R4D26 26/11
+
+- Client wants some additional sections. Pushed ui fixes and added the section. Separated the html by partials, using nunjucks templating engine
+
+- Code my portfolio. Added tests to my navbar. Used react-testing-library. Great utils.
+
+### R4D27
+
+- Watched advanced react patterns. Learned about compound components
+
+- Push some content fix in my client work
