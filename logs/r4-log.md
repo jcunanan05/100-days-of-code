@@ -40,14 +40,20 @@
 
 - Watched Kent Advanced react patterns tutorial. Learned about the updater function.
 
-### R4D26 26/11
+### R4D10 26/11
 
 - Client wants some additional sections. Pushed ui fixes and added the section. Separated the html by partials, using nunjucks templating engine
 
 - Code my portfolio. Added tests to my navbar. Used react-testing-library. Great utils.
 
-### R4D27
+### R4D11 27/11
 
 - Watched advanced react patterns. Learned about compound components
 
 - Push some content fix in my client work
+
+### R4D12 28/11
+
+- Code my portfolio, added footer.
+
+- Installed Aws Elasticbeanstalk CLI. A little bit challenging to setup environment variables.
