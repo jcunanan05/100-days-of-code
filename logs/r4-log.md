@@ -57,3 +57,11 @@
 - Code my portfolio, added footer.
 
 - Installed Aws Elasticbeanstalk CLI. A little bit challenging to setup environment variables.
+
+### R4D13 29/11
+
+- Setup a XAMPP environment, and also installed wordpress. A little bit confusing and challenging to set it up. But it works. I put some key notes on doing it.
+
+- Watch tutorial of AWS. Good intro of IAM roles.
+
+- Code my portfolio.
