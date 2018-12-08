@@ -65,3 +65,24 @@
 - Watch tutorial of AWS. Good intro of IAM roles.
 
 - Code my portfolio.
+
+### R4D14 3/12
+
+- Watched AWS Deployment videos in frontend masters
+
+### R4D15 4/12
+
+- Checked out wordpress API
+
+### R4D16 5/12
+
+- Stayed up late to practice deployment with AWS Beanstalk, my nextjs app has still errors
+
+### R4D17 6/12
+
+- Meeting with client
+- Found out some clues on why my nextjs app is not working, some permission errors with node-sass
+
+### R4D18 7/12
+
+- Code my portfolio again. Building a card component
