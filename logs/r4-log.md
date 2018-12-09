@@ -86,3 +86,7 @@
 ### R4D18 7/12
 
 - Code my portfolio again. Building a card component
+
+### R4D19 8/12
+
+- Code my client work today. There are some revisions.
