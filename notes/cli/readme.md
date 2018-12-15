@@ -13,3 +13,7 @@ PATH="$HOME/Library/Python/3.7/bin:$PATH"
 PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH
 ```
+
+## Restarting apache server on Mac
+
+`sudo killall httpd` and `sudo apachectl start`
