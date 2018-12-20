@@ -115,3 +115,15 @@ Get a good lawyer.
 - Contracts up front
 - Internal Allies
 - Advisors
+
+## Filing Taxes Tips
+
+Just some tips that I got asking people / accountants
+
+### Small income bracket (below 30k annually)
+
+Keep an envelope of your income checks, and cross them out when it is deposited.
+
+### Getting past small income bracket
+
+Keep track of your business expenses. An example is,when you're commuting for meeting, keep a log of it. You can give it to your accountant after.
