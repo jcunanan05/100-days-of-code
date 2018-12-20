@@ -90,3 +90,11 @@
 ### R4D19 8/12
 
 - Code my client work today. There are some revisions.
+
+### R4D20 17/20
+- Code my portfolio! It's done now at https://jcunanan05.github.io/
+- Found a good tool called Jotform, That takes up filling out forms and has a pdf generator. Thumbs up for their tool.
+
+### R421 19/20
+
+- Client meetings
