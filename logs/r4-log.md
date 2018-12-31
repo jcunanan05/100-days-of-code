@@ -92,6 +92,7 @@
 - Code my client work today. There are some revisions.
 
 ### R4D20 17/12
+
 - Code my portfolio! It's done now at https://jcunanan05.github.io/
 - Found a good tool called Jotform, That takes up filling out forms and has a pdf generator. Thumbs up for their tool.
 
@@ -99,19 +100,23 @@
 
 - Client meetings
 
-### 24/12
+### R4D22 24/12
 
 - Watched GraphQL fem intro videos
 
-### 25/12
+### R4D23 25/12
 
 - GatsbyJS Tutorials. Greeted programmers Merry Christmas
 
-### 26/12
+### R4D24 26/12
 
 - Had meeting with a friend on how would he make a blog. He wants wordpress, but I'm efficient with js. Settled with gatbsy and wordpress
 
-### 30/12
+### R4D25 30/12
 
 - Checkout some tutorials, Found good ones at Frontend Masters
 - Watched Webpack 4 Fundamentals on fem
+
+### R4D26 31/12
+
+- Last day of the year! Watched webpack 4 fundamentals. Got confidence in understanding webpack runtime code.
