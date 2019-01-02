@@ -79,3 +79,53 @@ The generated code has 2 parts, the runtime code, and the modules.
 - runtime code - usually called as _webpack bootstrap_, _webpack runtime_. Takes care of your exports.
   - runtime code has a function called `__webpack_require__` webpack require is a function that accepts a module ID, Calls the module, and returns the exports.
 - modules - your code, but bundled on a one file
+
+## Passing objects into webpack configs
+
+There are some instances there are code that will be executed if the mode is in production only, development only, and shared.
+
+A good solution is to pass an object via scripts.
+
+```json
+"scripts": {
+  "webpack": "webpack",
+  "prod": "npm run webpack -- --env.mode production",
+  "dev": "npm run webpack -- --env.mode development --watch",
+},
+```
+
+The webpack config will accept the flag as an object.
+
+```js
+// webpack.config.js
+module.exports = ({ mode }) => ({
+  mode,
+  output: {
+    filename: 'bundle.js'
+  }
+});
+```
+
+## Webpack process concepts
+
+### Entry
+
+These are initializations for your app. Like `bootstrap.js`. Webpack pulls the main dependencies from there.
+
+### Loaders
+
+Loaders, Take one file, and transform it.
+
+#### Chaining Loaders
+
+Loaders read from right to left.
+
+`loaders: ["style", "css", "less"]`
+
+Think of it as chaining functions.
+
+`style(css(less()))`
+
+### Plugins
+
+When loaders is not enough (you need to accept and transform multiple files), you need plugins. Plugins are like a hook into the webpack event system.
