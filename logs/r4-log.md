@@ -120,3 +120,28 @@
 ### R4D26 31/12
 
 - Last day of the year! Watched webpack 4 fundamentals. Got confidence in understanding webpack runtime code.
+
+### R4D27 04/01
+
+- I felt like I need to migrate my server rendered html into a full blown static site. I switched from node.js + nunjucks to Gatbsy.js I feel more comfortable with components.
+
+### R4D28 05/01
+
+- Started rewriting from bootstrap 4 to bulma. I love writing code in Bulma CSS framework.
+- Tried parsing `.md` files with gatsby-plugin-remark-transformer. I realized, I can just do it with marked.js library, liked I used to. Spent some time rewriting code again.
+
+### R4D29 07/01
+
+- Found out that git by default on my mac is case insensitive. When I renamed my exisitng files in TitleCase, nothing was commited. Lol I removed and returned my src folder.
+
+### R4D30 08/01
+
+- Found it difficult to put scripts in react. It doesn't execute when I just put it. I did some `document.createElement('script')` and put `async` and `defer` on the element, and injected it on the bottom of the page. Added the script on the component.
+
+### R4D31 09/01
+
+- I encountered a CORS issue when I am using mailgun. Stuck until evening. Even though i put headers, still nothing works.
+
+### R4D32 10/01
+
+- Solved CORS! I need a back-end to communicate with mailgun. I created 'again' a node server but still I have cors even with a cors plugin! Turns out, I need to enable CORS at a _preflight request_ called OPTIONS, on a rest route. I can now send emails!
