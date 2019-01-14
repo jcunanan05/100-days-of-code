@@ -145,3 +145,21 @@
 ### R4D32 10/01
 
 - Solved CORS! I need a back-end to communicate with mailgun. I created 'again' a node server but still I have cors even with a cors plugin! Turns out, I need to enable CORS at a _preflight request_ called OPTIONS, on a rest route. I can now send emails!
+
+### R4D33 11/01
+
+- Learned about react concepts. `componentDidUpdate()` will error out, when you didn't compare it to the upcoming props. It is well written in the docs.
+
+### R4D34 12/01
+
+- Used `multer`, an express middleware to handle `Content-Type: multipart/form-data`. Learned about multipart/form-data, that it has a `boundary`. Boundary is automatically provided by a javascript api called `FormData` I used it with axios to post data to the server.
+
+- Amazed that multer is well-writen.
+
+- Learned about buffer type. It is like the data. And learned about the mailgun api while reading its docs.
+
+- Bought Ruby on rails book! :)
+
+### R4D35 13/01
+
+-
