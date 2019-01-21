@@ -162,4 +162,40 @@
 
 ### R4D35 13/01
 
--
+- Finished my mailgun logic.
+
+### R4D36 14/01
+
+- Got problem in deploying, haven't really fixed my CORS problems. Tried the basic working code in npm's cors() package. Works, but only for one website.
+
+### R4D37 15/01
+
+- Finally got the site to deployment. Setup CI with travisCI, S3 / Cloudfront, in my portfolio's repo, and my work's repo.
+
+### R4D38 16/01
+
+- Got some work feedback, fix some typo, add some sections. Encountered an issue because I disabled our domain with www subdomain. The indexed search result on google now is disabled.
+
+- Work client wants success mail features after they successfully have the email.
+
+- Updated my backend code with cors that supports multiple websites.
+
+- Also discovered about adding mailgun to my DNS, idk why still my MX (mail exchange) dns is still not working
+
+### R4D39 17/01
+
+- Made some deployment logic, where I put up an heroku and netlify deployment on the `dev` branch. Added a `DEPLOYMENT_ENV` variable on heroku, that will add my netlify site to the whitelisted CORS websites.
+
+- Refactored my back-end code. So satisfying to erase long codes. haha
+
+### R4D40 18/01
+
+- Finally added the success mail feature. Got some permissions problems in aws ElasticBeanstalk for putting travisCI also in our backend repo. My mistake is, I am creating the policy from scratch, tying elastic beanstalk services altogether. After few hours, I finally discovered there's already a permission defaults by aws, Which is called ElasticBeanstalkWorker.
+
+### R4D41 19/01
+
+- Watching webpack 4 fundamentals on frontendmasters, it's awesome learning about webpack-dev-server, webpack-merge, packages. Hot reloading is awesome.
+
+### R4D42 20/01
+
+- Just reading about MDN Docs, MDN docs is awesome. Read about high level concepts/pros/cons of Django and Express
