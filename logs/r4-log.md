@@ -199,3 +199,41 @@
 ### R4D42 20/01
 
 - Just reading about MDN Docs, MDN docs is awesome. Read about high level concepts/pros/cons of Django and Express
+
+### R4D43 21/01
+
+- Played around with rails tutorial, adding minimal code to the generated code.
+
+### R4D44 22/01
+
+- Amazingly, I had another project! I used gatsby again to initialize my project. Finally made the test suite working! The docs were incomplete. I found the working code at [GatsbyJS's repo](https://github.com/gatsbyjs/gatsby/tree/master/examples/using-jest).
+
+### R4D45 23/01
+
+- I setup the deployment environment of my new project using travisCI and AWS S3, CloudFront. Also managed my DNS using AWS Route53, transferred it from GoDaddy. I found a good guide in this [stackoverflow link](https://stackoverflow.com/questions/11602232/how-to-link-godaddy-domain-with-aws-elastic-beanstalk-environment). It's just easier to manage, and get certificates from Route53.
+
+### R4D46 24/01
+
+- Slowly migrated my bulma components to the repo. Making a more reusable, general vanilla components because i believe i'll use more theming here.
+
+### R4D47 25/01
+
+- Started adding content code to my project. I used marked.js to parse my files.
+
+### R4D48 28/01
+
+- Deadline is almost there. I added a mailchimp api code with an exisiting server. So I made my cors more dynamic, but i had errors. Turns out, I just need to handle empty arguments.
+
+### R4D49 30/01
+
+- Made the banner component. I really don't know how to style the header. It's wierd because the image is square. I settled to a 2 column layout.
+
+### R4D50 31/01
+
+- Started a blog project with wordpress. It's for my friend.
+- Setting up testing again with Gatsby made me do a boilerplate.
+- Pushed some fixes on my works codebase
+
+### R4D51 02/02
+
+- Finished Webpack fundamentals! Learned about presets, environments, and most common packages to install. Planning to make my own boilerplate.
