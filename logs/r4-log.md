@@ -237,3 +237,7 @@
 ### R4D51 02/02
 
 - Finished Webpack fundamentals! Learned about presets, environments, and most common packages to install. Planning to make my own boilerplate.
+
+### R4D52 04/02
+
+- Learned [how to remove node.js on mac](https://stackoverflow.com/questions/9044788/how-do-i-uninstall-nodejs-installed-from-pkg-mac-os-x), and [how to install Node Version Manager (NVM)](https://github.com/creationix/nvm).
