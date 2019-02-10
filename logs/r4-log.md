@@ -241,3 +241,21 @@
 ### R4D52 04/02
 
 - Learned [how to remove node.js on mac](https://stackoverflow.com/questions/9044788/how-do-i-uninstall-nodejs-installed-from-pkg-mac-os-x), and [how to install Node Version Manager (NVM)](https://github.com/creationix/nvm).
+
+### R4D53 05/02
+
+- Continued watching intro to node js. Learned about Async functions. There are other new Async functions asides from the common try/catch method.
+
+### R4D54 06/02
+
+- Since I finished Webpack 4 workshop, I figured I'll make a boilerplate using webpack.
+
+### R4D55 07/02
+
+- Continued coding the blog project.
+- I wrote an article about enabling ES6 with Node.js https://medium.com/@j_cunanan05/how-to-enable-es6-and-beyond-syntax-with-node-and-express-c7110406b480
+
+### R4D56 08/02
+
+- Continued coding the blog project.
+- I feel the need to study patterns. I watched Functional-Light JS by Kyle Simpson.
