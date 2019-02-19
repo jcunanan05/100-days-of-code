@@ -1,9 +1,9 @@
-# Computer Science in 5 Hours
+# 4 Semesters of Computer Science in 5 Hours
 
 By Brian Holt
 
 ## Intro
- 
+
 He wrote this material because he was frustrated on engineer interviews. Interviews sometimes asks complicated theory concepts even when they are not related to that job. So he made this to, at least in theory, let the people know some computer concepts.
 
 ### Science of tradeoffs
@@ -15,3 +15,24 @@ But his advice 95% go for readable code. As Kyle simpson said, you're saving it 
 ## Big O
 
 Big O is the theoretical formula of how complex the algorithm is. It is broad strokes comparison on how would our code could perform on big data. It is like 300ms vs 30s. It isn't like 300ms vs 330ms.
+
+## Recursion
+
+Define something in terms of itself.
+
+### Basic structure
+
+- Base Case - The one that will terminate the loop. When you start recursing.
+
+### Recursion tips
+
+Be aggressive with your base case. The condition should prevent infinite loops that will stop stackoverflow.
+
+Examples:
+
+- Fibonacci sequence
+- Factorial
+
+```js
+const factorial = n => {};
+```
