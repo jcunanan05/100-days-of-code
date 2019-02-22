@@ -36,3 +36,47 @@ Examples:
 ```js
 const factorial = n => {};
 ```
+
+## Bubble Sort
+
+Bubble sort is the easiest to comprehend on all the sorting algorithms.
+The process is broken down like this:
+[4, 2, 1, 3]
+
+- compare 4, 2, swap if 4 > 2 `[2, 4, 1, 3]`
+- compare 4, 1, swap if 4 > 1 `[2, 1, 4, 3]`
+- compare 4, 3, swap if 4 > 3 `[2, 1, 3, 4]`
+- and then go through the loop until it isn't all sorted.
+
+an example code could be like this:
+
+```js
+function bubbleSort(nums) {
+  do {
+    var swapped = false;
+    for (var i = 0; i < nums.length; i++) {
+      if (nums[i] > nums[i + 1]) {
+        var temp = nums[i];
+        nums[i] = nums[i + 1];
+        nums[i + 1] = temp;
+        swapped = true;
+      }
+    }
+  } while (swapped);
+}
+```
+
+the `do` loop won't stop going through the array until it doesn't stop swapping.
+
+## Insertion Sort
+
+Insertion sort is great for arrays that almost close to get sorted. Worst case it will be bubble sort. It uses two loops also like bubble sort.
+
+The process will be broken down like this.
+[3,4,1,2]
+
+- 3 > 4, do nothing
+- 3 > 1, insert 1 in place of 3. `[1,4,3,2]`
+- 1 > 2, do nothing
+- 4 > 3, insert 3 in place of 4. `[1,3,4,2]`
+- 3 > 2, insert 2 in place of 3. `[1,2,3,4]`
