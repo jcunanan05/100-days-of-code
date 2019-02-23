@@ -161,3 +161,67 @@ function quickSort(nums) {
   return [...quickSort(left), pivot, ...quickSort(right)];
 }
 ```
+
+## Interfaces and Implementations
+
+- Interfaces are things that you use and implementations are what are they under the hood.
+
+## Interfaces
+
+### Sets
+
+Sets are like collection. They have no guarantee of order. They make sure you have no duplicates.
+
+- They are not array or a list.
+- More of an object
+- Most of the time they have, add, remove, contains, and toList
+
+### Maps
+
+- Just keys and values, or dictionaries
+- with set of keys, can't be duplicated
+- in JS, it's just objects, but these are maps with helpers
+- You can implement Maps now in es6
+
+> Additional tips:
+>
+> There's new js feature called weakMaps and weakSets. Helps you with garbage collection.
+>
+> Recommends https://www.2ality.com if you want to learn about es6.
+
+### Stack
+
+- Is an interface
+- Last in first out
+- You can't get what's below without removing the top
+- It has pop, push, peek
+- They are usually modeled in programming languages.
+- `call stack, stackoverflow`
+
+> Note: Arrays have a stack interface but it isn't a pure stack
+
+### Queue
+
+- First in First out. It's like a line.
+- Enqueue means put something behind, and dequeue remove something infront.
+- All stacks must have enqueue and dequeue method.
+- There's also these things called `priority queues`. Things are more important go to the front.
+
+## Implementations
+
+### Array lists
+
+Think of this as like memory blocks. And Array Lists behave like array. You get things by their index.
+
+> You don't need to worry about this in Javascript. Memories in js are garbage-collected. You need in times that it's not garbage collected.
+
+Pros:
+
+- Fast to get values.
+- Fast to add values.
+
+Cons:
+
+- expensive in deleting. If you delete in the midde, you need to shift all those elements in between.
+
+### Linked Lists
